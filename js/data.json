@@ -464,6 +464,7 @@
       "//webpack.github.io/",
       ""
     ],
+    ["rollup","//rollupjs.org/",""]
     [
       "CommonJS",
       "//www.commonjs.org/",
