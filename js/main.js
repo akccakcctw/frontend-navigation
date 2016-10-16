@@ -1,24 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (location.hash) {
-        changeHeadColor();
-    }
+
     // on hash change
     window.addEventListener('hashchange', changeHeadColor, false);
 
-    // link onclick
-    let linkEl = document.getElementsByTagName('a');
-    for (let i = 0; i < linkEl.length; i++) {
-        linkEl[i].addEventListener('click', linkClick, false);
-    }
-
-    // .thead onclick
-    let tHead = document.querySelectorAll('.thead');
-    for (let i = 0; i < tHead.length; i++) {
-        tHead[i].addEventListener('click', theadClick, false);
-
-    }
-})
-
+    loadJSON('js/data.json')
+        .then((response) => {
+            createBody(response);
+        })
+        .then(()=>{
+            if(location.hash){
+                scrollToHash();
+                changeHeadColor();
+            }
+        })
+        .catch((e) => console.error(e));
+});
 
 function linkClick(e) {
     e.preventDefault();
@@ -32,8 +28,9 @@ function theadClick(e) {
         rmActive();
         this.classList.toggle('is-active');
     }
-    // 修改hashtag
-    location.hash = this.parentNode.getAttribute('id');
+    // 修改hash
+    let newHistory = this.parentNode.getAttribute('id');
+    history.replaceState({ hash: newHistory }, "", `#${newHistory}`);
 }
 
 function rmActive(e) {
@@ -48,4 +45,73 @@ function changeHeadColor(e) {
     let hashName = location.hash;
     let targetHead = document.querySelector(hashName).querySelector('.thead');
     targetHead.classList.toggle('is-active');
+}
+
+function scrollToHash() {
+    const hash = location.hash;
+    document.querySelector(hash).scrollIntoView();
+}
+
+function loadJSON(url) {
+    return new Promise((resolve, reject) => {
+        const ajax = new XMLHttpRequest();
+        ajax.onreadystatechange = () => {
+            if (ajax.readyState == 4 && ajax.status == 200) {
+                resolve(ajax.responseText);
+            }
+        }
+        ajax.open('GET', url, true);
+        ajax.setRequestHeader("Content-type", "application/json");
+        ajax.send(null);
+    });
+}
+
+function createBody(response) {
+    const data = JSON.parse(response);
+    for (let keys in data) {
+        let category = document.createElement('div');
+        setAttributes(category, { 'id': keys, 'class': 'table' });
+        let cateHead = document.createElement('figure');
+        let _cateHead = document.createTextNode(data[keys][0]);
+        cateHead.setAttribute('class', 'thead');
+        cateHead.appendChild(_cateHead);
+        category.appendChild(cateHead);
+        let cateBody = document.createElement('figure');
+        cateBody.setAttribute('class', 'tbody');
+        for (let i = 1; i < data[keys].length; i++) {
+            let link = document.createElement('a');
+            link.setAttribute('href', data[keys][i][1]);
+            let elWrap = document.createElement('figure');
+            let elTitle = document.createElement('figcaption');
+            let _elTitle = document.createTextNode(data[keys][i][0]);
+            elTitle.appendChild(_elTitle);
+            let elDesc = document.createElement('p');
+            let _elDesc = document.createTextNode(data[keys][i][2]);
+            elDesc.setAttribute('class', 'desc');
+            elDesc.appendChild(_elDesc);
+            elWrap.appendChild(elTitle);
+            elWrap.appendChild(elDesc);
+            link.appendChild(elWrap);
+            cateBody.appendChild(link);
+            category.appendChild(cateBody);
+        }
+        document.body.appendChild(category);
+    }
+    // link onclick
+    let linkEl = document.getElementsByTagName('a');
+    for (let i = 0; i < linkEl.length; i++) {
+        linkEl[i].addEventListener('click', linkClick, false);
+    }
+
+    // .thead onclick
+    let tHead = document.querySelectorAll('.thead');
+    for (let i = 0; i < tHead.length; i++) {
+        tHead[i].addEventListener('click', theadClick, false);
+    }
+}
+
+function setAttributes(el, attrs) {
+    for (var key in attrs) {
+        el.setAttribute(key, attrs[key]);
+    }
 }

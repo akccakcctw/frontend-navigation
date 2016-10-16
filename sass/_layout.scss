@@ -32,14 +32,14 @@ a {
             background: $primary-color;
             color: $reverse-color;
             + .tbody {
-                background: darken($primary-color, 30);
+                background: darken($primary-color, 50);
                 figure {
                     background: $primary-color;
                     color: $reverse-color;
                     &:hover {
                         background: $reverse-color;
                         color: $primary-color;
-                        box-shadow:1px 1px 3px darken($primary-color, 50);
+                        box-shadow:1px 1px 3px darken($primary-color, 70);
                     }
                 }
             }
