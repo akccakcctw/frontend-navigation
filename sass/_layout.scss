@@ -9,12 +9,12 @@ a {
 
 .table {
     width: 100%;
-    background: $table-color;
+    background: $color-table;
     border: 1px solid transparent;
     display: flex;
     .thead {
         display: flex;
-        background: $thead-color;
+        background: $color-thead;
         min-width: 150px;
         width: 150px;
         text-align: center;
@@ -25,21 +25,21 @@ a {
         font-weight: bold;
         cursor: pointer;
         &:hover {
-            background: $primary-color;
-            color: $reverse-color;
+            background: $color--selected;
+            color: $color-reverse;
         }
         &.is-active {
-            background: $primary-color;
-            color: $reverse-color;
+            background: $color--selected;
+            color: $color-reverse;
             + .tbody {
-                background: darken($primary-color, 50);
+                background: $color--selected;
                 figure {
-                    background: $primary-color;
-                    color: $reverse-color;
+                    background: $color-primary;
+                    color: $color-reverse;
                     &:hover {
-                        background: $reverse-color;
-                        color: $primary-color;
-                        box-shadow:1px 1px 3px darken($primary-color, 70);
+                        background: $color-reverse;
+                        color: $color-primary;
+                        box-shadow:1px 1px 3px darken($color-primary, 70);
                     }
                 }
             }
@@ -57,7 +57,7 @@ a {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background: $tbody-color;
+            background: $color-tbody;
             border: none;
             margin: 1px;
             figcaption {
@@ -70,7 +70,7 @@ a {
                 font-size: 0.8rem;
             }
             &:hover {
-                background: $primary-color;
+                background: $color-primary;
                 color: white;
             }
         }
