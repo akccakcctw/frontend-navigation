@@ -1,69 +1,74 @@
 # [Front-end Navigation](https://akccakcctw.github.io/frontend-navigation/)
 
-## [CDN](https://akccakcctw.github.io/frontend-navigation/#cdn)
+## [CDN(cdn)](https://akccakcctw.github.io/frontend-navigation/#cdn)
 
-## [HTTP](https://akccakcctw.github.io/frontend-navigation/#http)
+## [HTTP(http)](https://akccakcctw.github.io/frontend-navigation/#http)
 
-## [原型設計](https://akccakcctw.github.io/frontend-navigation/#prototype)
+## [原型設計(prototype)](https://akccakcctw.github.io/frontend-navigation/#prototype)
 
-## [API](https://akccakcctw.github.io/frontend-navigation/#api)
+## [API(api)](https://akccakcctw.github.io/frontend-navigation/#api)
 
-## [團隊合作](https://akccakcctw.github.io/frontend-navigation/#team-work)
+## [團隊合作(team-work)](https://akccakcctw.github.io/frontend-navigation/#team-work)
 
-## [佔位圖](https://akccakcctw.github.io/frontend-navigation/#placeholder-images)
+## [佔位圖(placeholder-images)](https://akccakcctw.github.io/frontend-navigation/#placeholder-images)
 
-## [影像最佳化](https://akccakcctw.github.io/frontend-navigation/#image-optimize)
+## [影像最佳化(image-optimize)](https://akccakcctw.github.io/frontend-navigation/#image-optimize)
 
-## [字型](https://akccakcctw.github.io/frontend-navigation/#fonts)
+## [字型(fonts)](https://akccakcctw.github.io/frontend-navigation/#fonts)
 
-## [JS框架](https://akccakcctw.github.io/frontend-navigation/#js-framework)
+## [Icon Font(icon-font)](https://akccakcctw.github.io/frontend-navigation/#icon-font)
 
-## [函式庫](https://akccakcctw.github.io/frontend-navigation/#library)
+## [JS框架(js-framework)](https://akccakcctw.github.io/frontend-navigation/#js-framework)
 
-## [CSS框架](https://akccakcctw.github.io/frontend-navigation/#css-framework)
+## [函式庫(library)](https://akccakcctw.github.io/frontend-navigation/#library)
 
-## [CSS預處理器](https://akccakcctw.github.io/frontend-navigation/#css-preprocessor)
+## [CSS框架(css-framework)](https://akccakcctw.github.io/frontend-navigation/#css-framework)
 
-## [編輯器](https://akccakcctw.github.io/frontend-navigation/#editor)
+## [CSS預處理器(css-preprocessor)](https://akccakcctw.github.io/frontend-navigation/#css-preprocessor)
 
-## [IDE](https://akccakcctw.github.io/frontend-navigation/#ide)
+## [編輯器(editor)](https://akccakcctw.github.io/frontend-navigation/#editor)
 
-## [程式碼分享](https://akccakcctw.github.io/frontend-navigation/#playground)
+## [IDE(ide)](https://akccakcctw.github.io/frontend-navigation/#ide)
 
-## [JS轉譯器](https://akccakcctw.github.io/frontend-navigation/#js-transpiler)
+## [程式碼分享(playground)](https://akccakcctw.github.io/frontend-navigation/#playground)
 
-## [自動化構建](https://akccakcctw.github.io/frontend-navigation/#automation)
+## [JS轉譯器(js-transpiler)](https://akccakcctw.github.io/frontend-navigation/#js-transpiler)
 
-## [模組化管理](https://akccakcctw.github.io/frontend-navigation/#module-bundler)
+## [自動化構建(automation)](https://akccakcctw.github.io/frontend-navigation/#automation)
 
-## [套件管理](https://akccakcctw.github.io/frontend-navigation/#package-manager)
+## [模組化管理(module-bundler)](https://akccakcctw.github.io/frontend-navigation/#module-bundler)
 
-## [JS品質管理](https://akccakcctw.github.io/frontend-navigation/#js-quality)
+## [套件管理(package-manager)](https://akccakcctw.github.io/frontend-navigation/#package-manager)
 
-## [單元測試](https://akccakcctw.github.io/frontend-navigation/#unit-test)
+## [JS品質管理(js-quality)](https://akccakcctw.github.io/frontend-navigation/#js-quality)
 
-## [環境](https://akccakcctw.github.io/frontend-navigation/#enviroment)
+## [單元測試(unit-test)](https://akccakcctw.github.io/frontend-navigation/#unit-test)
 
-## [兼容性](https://akccakcctw.github.io/frontend-navigation/#campatibility)
+## [環境(enviroment)](https://akccakcctw.github.io/frontend-navigation/#enviroment)
 
-## [兼容性測試](https://akccakcctw.github.io/frontend-navigation/#c-testing)
+## [兼容性(campatibility)](https://akccakcctw.github.io/frontend-navigation/#campatibility)
 
-## [Debugging](https://akccakcctw.github.io/frontend-navigation/#debugging)
+## [兼容性測試(c-testing)](https://akccakcctw.github.io/frontend-navigation/#c-testing)
 
-## [效能](https://akccakcctw.github.io/frontend-navigation/#performance)
+## [Debugging(debugging)](https://akccakcctw.github.io/frontend-navigation/#debugging)
 
-## [安全性](https://akccakcctw.github.io/frontend-navigation/#safety)
+## [效能(performance)](https://akccakcctw.github.io/frontend-navigation/#performance)
 
-## [跨平台](https://akccakcctw.github.io/frontend-navigation/#cross-platform)
+## [安全性(safety)](https://akccakcctw.github.io/frontend-navigation/#safety)
 
-## [瀏覽器附加工具](https://akccakcctw.github.io/frontend-navigation/#addons)
+## [跨平台(cross-platform)](https://akccakcctw.github.io/frontend-navigation/#cross-platform)
 
-## [RWD](https://akccakcctw.github.io/frontend-navigation/#rwd)
+## [瀏覽器附加工具(addons)](https://akccakcctw.github.io/frontend-navigation/#addons)
 
-## [瀏覽器](https://akccakcctw.github.io/frontend-navigation/#browser)
+## [RWD(rwd)](https://akccakcctw.github.io/frontend-navigation/#rwd)
 
-## [純文字瀏覽器](https://akccakcctw.github.io/frontend-navigation/#browser-text)
+## [瀏覽器(browser)](https://akccakcctw.github.io/frontend-navigation/#browser)
 
-## [爬蟲](https://akccakcctw.github.io/frontend-navigation/#crawler)
+## [純文字瀏覽器(browser-text)](https://akccakcctw.github.io/frontend-navigation/#browser-text)
 
-## [其他工具](https://akccakcctw.github.io/frontend-navigation/#tool)
+## [爬蟲(crawler)](https://akccakcctw.github.io/frontend-navigation/#crawler)
+
+## [其它工具(tool)](https://akccakcctw.github.io/frontend-navigation/#tool)
+
+## [電子報(newsletter)](https://akccakcctw.github.io/frontend-navigation/#newsletter)
+
