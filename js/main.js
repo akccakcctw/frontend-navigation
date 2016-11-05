@@ -16,21 +16,25 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch((e) => console.error(e));
 });
 
-function linkClick(e) {
+function openLink(e) {
     e.preventDefault();
-    let newTarget = open(this.href);
+    open(this.href);
 }
 
-function theadClick(e) {
-    if (this.classList.contains('is-active')) {
-        rmActive();
-    } else {
-        rmActive();
-        this.classList.toggle('is-active');
-    }
+function changeHash(e) {
+    toggleActive(this);
     // 修改hash
     let newHistory = this.parentNode.getAttribute('id');
     history.replaceState({ hash: newHistory }, "", `#${newHistory}`);
+}
+
+function toggleActive(el){
+    if(el.classList.contains('is-active')){
+        rmActive();
+    }else{
+        rmActive();
+        el.classList.toggle('is-active');
+    }
 }
 
 function rmActive(e) {
@@ -113,14 +117,12 @@ function createBody(response) {
     // link onclick
     let linkEl = document.getElementsByTagName('a');
     for (let i = 0; i < linkEl.length; i++) {
-        linkEl[i].addEventListener('click', linkClick, false);
+        linkEl[i].addEventListener('click', openLink, false);
     }
 
     // .thead onclick
     let tHead = document.querySelectorAll('.thead');
     for (let i = 0; i < tHead.length; i++) {
-        tHead[i].addEventListener('click', theadClick, false);
+        tHead[i].addEventListener('click', changeHash, false);
     }
 }
-
-
