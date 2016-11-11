@@ -3,18 +3,36 @@ document.addEventListener('DOMContentLoaded', () => {
     // on hash change
     window.addEventListener('hashchange', changeHeadColor, false);
 
-    loadJSON('js/data.json')
-        .then((response) => {
-            createBody(response);
-        })
-        .then(()=>{
-            if(location.hash){
+    if (compareVersion()) {
+        createBody(localStorage.getItem('frontend-navigation-data'));
+        setTimeout(() => {
+            if (location.hash) {
                 scrollToHash();
                 changeHeadColor();
             }
-        })
-        .catch((e) => console.error(e));
+        }, 1);
+    } else {
+        loadJSON('js/data.json')
+            .then((response) => {
+                createBody(response);
+                localStorage.setItem('frontend-navigation-version', document.querySelector('head').dataset.version);
+                localStorage.setItem('frontend-navigation-data', response);
+            })
+            .then(() => {
+                if (location.hash) {
+                    scrollToHash();
+                    changeHeadColor();
+                }
+            })
+            .catch((e) => console.error(e));
+    }
 });
+
+function compareVersion() { //return true or false
+    const localVersion = localStorage.getItem('frontend-navigation-version');
+    const curVersion = document.querySelector('head').dataset.version;
+    return localVersion === curVersion;
+}
 
 function openLink(e) {
     e.preventDefault();
@@ -28,10 +46,10 @@ function changeHash(e) {
     history.replaceState({ hash: newHistory }, "", `#${newHistory}`);
 }
 
-function toggleActive(el){
-    if(el.classList.contains('is-active')){
+function toggleActive(el) {
+    if (el.classList.contains('is-active')) {
         rmActive();
-    }else{
+    } else {
         rmActive();
         el.classList.toggle('is-active');
     }
@@ -70,7 +88,7 @@ function loadJSON(url) {
     });
 }
 
-function addText(el,str){
+function addText(el, str) {
     let textNode = document.createTextNode(str);
     el.appendChild(textNode);
 }
@@ -82,11 +100,12 @@ function setAttributes(el, attrs) {
 }
 
 function createBody(response) {
+
     const data = JSON.parse(response);
     for (let keys in data) {
         let category = document.createElement('div');
         setAttributes(category, { 'id': keys, 'class': 'table' });
-        
+
         let cateHead = document.createElement('figure');
         cateHead.setAttribute('class', 'thead');
         addText(cateHead, data[keys][0]);
@@ -100,7 +119,7 @@ function createBody(response) {
             link.setAttribute('href', data[keys][i][1]);
             let elWrap = document.createElement('figure');
             let elTitle = document.createElement('figcaption');
-            addText(elTitle,data[keys][i][0]);
+            addText(elTitle, data[keys][i][0]);
 
             let elDesc = document.createElement('p');
             elDesc.setAttribute('class', 'desc');
@@ -125,4 +144,5 @@ function createBody(response) {
     for (let i = 0; i < tHead.length; i++) {
         tHead[i].addEventListener('click', changeHash, false);
     }
+
 }
