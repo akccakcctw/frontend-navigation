@@ -1,3 +1,5 @@
+# Caches #
+#####################
 .sass-cache/
 *.bak
 
@@ -16,3 +18,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# modules #
+######################
+node_modules/
