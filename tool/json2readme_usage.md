@@ -1,4 +1,4 @@
-#json2readme.sh Usage
+# json2readme.sh Usage
 
 json2readme.sh will generate/update README.md on the basis of data(js/data.json). Before using it, you have to install [jq](https://stedolan.github.io/jq/download/) in your machine.
 
