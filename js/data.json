@@ -267,6 +267,11 @@
   "library": [
     "函式庫",
     [
+      "Ramda",
+      "http://ramdajs.com/",
+      "Functional Programming"
+    ],
+    [
       "jQuery",
       "https://jquery.com/",
       ""
