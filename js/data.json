@@ -847,6 +847,11 @@
       "AlloyDesigner",
       "https://alloyteam.github.io/AlloyDesigner/",
       "幫助確認視覺稿"
+    ],
+    [
+      "WebMaker",
+      "https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh",
+      "離線playground"
     ]
   ],
   "rwd": [
