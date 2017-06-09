@@ -1,3 +1,9 @@
-@import "compass/reset";
+// normalize
+@import "vendor/normalize-scss/_variables.scss";
+@import "vendor/normalize-scss/_vertical-rhythm.scss";
+@import "vendor/normalize-scss/_normalize";
+
+// main
 @import "mixin";
+@import "base";
 @import "layout";
