@@ -71,37 +71,39 @@ function setAttributes(el, attrs) {
 
 function createBody(response) {
   const data = JSON.parse(response);
-  for (const keys in data) {
+  data.forEach((item) => {
     const category = document.createElement('div');
-    setAttributes(category, { id: keys, class: 'table' });
+    setAttributes(category, { id: item.type, class: 'table' });
 
     const cateHead = document.createElement('figure');
     cateHead.setAttribute('class', 'thead');
-    addText(cateHead, data[keys][0]);
+    addText(cateHead, item.name);
     category.appendChild(cateHead);
 
     const cateBody = document.createElement('figure');
     cateBody.setAttribute('class', 'tbody');
 
-    for (let i = 1; i < data[keys].length; i++) {
+    item.data.forEach((iData) => {
       const link = document.createElement('a');
-      link.setAttribute('href', data[keys][i][1]);
+      link.setAttribute('href', iData[1]);
       const elWrap = document.createElement('figure');
       const elTitle = document.createElement('figcaption');
-      addText(elTitle, data[keys][i][0]);
+      addText(elTitle, iData[0]);
 
       const elDesc = document.createElement('p');
       elDesc.setAttribute('class', 'desc');
-      addText(elDesc, data[keys][i][2]);
+      addText(elDesc, iData[2]);
 
       elWrap.appendChild(elTitle);
       elWrap.appendChild(elDesc);
       link.appendChild(elWrap);
       cateBody.appendChild(link);
       category.appendChild(cateBody);
-    }
+    });
+
     document.body.appendChild(category);
-  }
+  });
+
   // link onclick
   const linkEl = document.getElementsByTagName('a');
   for (let i = 0; i < linkEl.length; i++) {
@@ -143,4 +145,3 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(e => console.error(e));
   }
 });
-
