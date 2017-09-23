@@ -34,6 +34,7 @@
 - [lorempixum](https://lorempixel.com/) -
 - [placehold.it](https://placehold.it/) -
 - [placebeard.it](https://placebeard.it/) - 鬍子！鬍子！
+- [PlaceIMG](https://placeimg.com/) -
 
 ## [影像最佳化(image-optimize)](https://akccakcctw.github.io/frontend-navigation/#image-optimize)
 - [ImageMagick](https://www.imagemagick.org/) - 整合多功能（命令列程式）
@@ -150,12 +151,21 @@
 - [JSCS](http://jscs.info/) - JS撰寫風格標準
 
 ## [單元測試(unit-test)](https://akccakcctw.github.io/frontend-navigation/#unit-test)
+- [AVA](https://github.com/avajs/ava) -
 - [Mocha](https://mochajs.org/) -
 - [Chai](http://chaijs.com/) -
 - [Jasmine](https://jasmine.github.io/) -
 - [Karma](https://karma-runner.github.io/) -
 - [Protractor](http://www.protractortest.org/) -
 - [Buster.js](http://docs.busterjs.org/) -
+
+## [CI/CD(ci-cd)](https://akccakcctw.github.io/frontend-navigation/#ci-cd)
+- [Travis CI](https://travis-ci.org/) -
+- [Jenkins](https://jenkins.io/) -
+- [GitLab CI](https://about.gitlab.com/features/gitlab-ci-cd/) -
+- [BuildBot](https://buildbot.net/) -
+- [Drone](https://github.com/drone/drone) -
+- [Concourse](https://concourse.ci/) -
 
 ## [環境(enviroment)](https://akccakcctw.github.io/frontend-navigation/#enviroment)
 - [Node.js](https://nodejs.org/) -
@@ -245,6 +255,7 @@
 - [ngrok](https://ngrok.com/) - 發布測試站
 - [PutsMail](https://putsmail.com/) - 電子報測試
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse) - 網頁性能測試
+- [ipify](https://www.ipify.org/) - IP API
 
 ## [電子報(newsletter)](https://akccakcctw.github.io/frontend-navigation/#newsletter)
 - [CodeTengu](http://weekly.codetengu.com/) - 碼天狗

@@ -147,6 +147,11 @@
         "placebeard.it",
         "https://placebeard.it/",
         "鬍子！鬍子！"
+      ],
+      [
+        "PlaceIMG",
+        "https://placeimg.com/",
+        ""
       ]
     ]
   },
@@ -665,6 +670,11 @@
     "name": "單元測試",
     "data": [
       [
+        "AVA",
+        "https://github.com/avajs/ava",
+        ""
+      ],
+      [
         "Mocha",
         "https://mochajs.org/",
         ""
@@ -692,6 +702,42 @@
       [
         "Buster.js",
         "http://docs.busterjs.org/",
+        ""
+      ]
+    ]
+  },
+  {
+    "type": "ci-cd",
+    "name": "CI/CD",
+    "data": [
+      [
+        "Travis CI",
+        "https://travis-ci.org/",
+        ""
+      ],
+      [
+        "Jenkins",
+        "https://jenkins.io/",
+        ""
+      ],
+      [
+        "GitLab CI",
+        "https://about.gitlab.com/features/gitlab-ci-cd/",
+        ""
+      ],
+      [
+        "BuildBot",
+        "https://buildbot.net/",
+        ""
+      ],
+      [
+        "Drone",
+        "https://github.com/drone/drone",
+        ""
+      ],
+      [
+        "Concourse",
+        "https://concourse.ci/",
         ""
       ]
     ]
@@ -1086,6 +1132,11 @@
         "Lighthouse",
         "https://github.com/GoogleChrome/lighthouse",
         "網頁性能測試"
+      ],
+      [
+        "ipify",
+        "https://www.ipify.org/",
+        "IP API"
       ]
     ]
   },
