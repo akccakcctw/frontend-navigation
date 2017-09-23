@@ -6,7 +6,8 @@
   "author": "Rex Tsou <akccakccwww@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:sass": "node-sass --output-style compressed -o css/ sass/"
+    "build:sass": "node-sass --output-style compressed -o css/ sass/",
+    "build:readme": "sh tool/json2readme.sh"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
