@@ -19,7 +19,7 @@ for (( i=0; i<$jsonLen; i++ )); do
   name=$(echo $jsonData | jq ".[$i].name" -r) # category in Chinese
   data=$(echo $jsonData | jq ".[$i].data")
   dataLen=$(echo $jsonData | jq ".[$i].data | length")
-  echo \#\# [$name\($category\)]\(https://akccakcctw.github.io/frontent-navigation/#$category\) >> README.md
+  echo \#\# [$name\($category\)]\(https://akccakcctw.github.io/frontend-navigation/#$category\) >> README.md
   for (( j=0; j<$dataLen; j++ )); do
     title=$(echo $data | jq ".[$j][0]" -r)
     url=$(echo $data | jq ".[$j][1]" -r)
