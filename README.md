@@ -241,7 +241,7 @@
 ## [純文字瀏覽器(browser-text)](https://akccakcctw.github.io/frontend-navigation/#browser-text)
 - [PhantomJS](http://phantomjs.org/) - 虛擬瀏覽器（Webkit）
 - [Links](http://links.twibright.com) -
-- [Lynx](http://lynx.isc.org/) -
+- [Lynx](https://lynx.invisible-island.net/) -
 - [w3m](http://w3m.sourceforge.net/) -
 
 ## [爬蟲(crawler)](https://akccakcctw.github.io/frontend-navigation/#crawler)
