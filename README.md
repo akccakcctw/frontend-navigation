@@ -3,6 +3,7 @@
 ## [CDN(cdn)](https://akccakcctw.github.io/frontend-navigation/#cdn)
 - [cdnjs](https://cdnjs.com/) - 應有盡有
 - [GoogleCDN](https://developers.google.com/speed/libraries/) -
+- [RawGit](https://rawgit.com/) -
 - [MicrosoftCDN](https://www.asp.net/ajax/cdn) -
 
 ## [HTTP(http)](https://akccakcctw.github.io/frontend-navigation/#http)
@@ -27,6 +28,8 @@
 - [JIRA](https://www.atlassian.com/software/jira) -
 - [ZenHub](https://www.zenhub.com/) -
 - [Waffle.io](https://waffle.io/) -
+- [Airtable](https://airtable.com/) -
+- [Notion](https://www.notion.so/) - 適合整理控
 
 ## [佔位圖(placeholder-images)](https://akccakcctw.github.io/frontend-navigation/#placeholder-images)
 - [dummyimage](https://dummyimage.com) -
@@ -257,6 +260,7 @@
 - [PutsMail](https://putsmail.com/) - 電子報測試
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse) - 網頁性能測試
 - [ipify](https://www.ipify.org/) - IP API
+- [Markdown Here](http://markdown-here.com/) - 用markdown寫信
 
 ## [電子報(newsletter)](https://akccakcctw.github.io/frontend-navigation/#newsletter)
 - [CodeTengu](http://weekly.codetengu.com/) - 碼天狗

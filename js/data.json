@@ -14,6 +14,11 @@
         ""
       ],
       [
+        "RawGit",
+        "https://rawgit.com/",
+        ""
+      ],
+      [
         "MicrosoftCDN",
         "https://www.asp.net/ajax/cdn",
         ""
@@ -116,6 +121,16 @@
         "Waffle.io",
         "https://waffle.io/",
         ""
+      ],
+      [
+        "Airtable",
+        "https://airtable.com/",
+        ""
+      ],
+      [
+        "Notion",
+        "https://www.notion.so/",
+        "適合整理控"
       ]
     ]
   },
@@ -1142,6 +1157,11 @@
         "ipify",
         "https://www.ipify.org/",
         "IP API"
+      ],
+      [
+        "Markdown Here",
+        "http://markdown-here.com/",
+        "用markdown寫信"
       ]
     ]
   },
