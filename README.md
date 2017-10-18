@@ -102,6 +102,7 @@
 - [spacemacs](http://spacemacs.org/) -
 - [Coda](https://panic.com/coda/) -
 - [Kate](https://kate-editor.org/) -
+- [Micro](https://micro-editor.github.io/) - 終端機新選擇
 
 ## [IDE(ide)](https://akccakcctw.github.io/frontend-navigation/#ide)
 - [Visual Studio](https://www.visualstudio.com/) -
