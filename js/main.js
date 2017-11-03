@@ -44,20 +44,6 @@ function scrollToHash() {
   document.querySelector(hash).scrollIntoView();
 }
 
-function loadJSON(url) {
-  return new Promise((resolve, reject) => {
-    const ajax = new XMLHttpRequest();
-    ajax.onreadystatechange = () => {
-      if (ajax.readyState === 4 && ajax.status === 200) {
-        resolve(ajax.responseText);
-      }
-    };
-    ajax.open('GET', url, true);
-    ajax.setRequestHeader('Content-type', 'application/json');
-    ajax.send(null);
-  });
-}
-
 function addText(el, str) {
   const textNode = document.createTextNode(str);
   el.appendChild(textNode);
@@ -70,7 +56,7 @@ function setAttributes(el, attrs) {
 }
 
 function createBody(response) {
-  const data = JSON.parse(response);
+  const data = response;
   data.forEach((item) => {
     const category = document.createElement('div');
     setAttributes(category, { id: item.type, class: 'table' });
@@ -122,7 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('hashchange', changeHeadColor, false);
 
   if (compareVersion()) {
-    createBody(localStorage.getItem('frontend-navigation-data'));
+    const data = localStorage.getItem('frontend-navigation-data');
+    createBody(JSON.parse(data));
     setTimeout(() => {
       if (location.hash) {
         scrollToHash();
@@ -130,11 +117,19 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }, 1);
   } else {
-    loadJSON('js/data.json')
+    fetch('js/data.json')
       .then((response) => {
-        createBody(response);
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          return response.json();
+        }
+        throw new TypeError('JSON please');
+      })
+      .then((data) => {
+        createBody(data);
+        const json = JSON.stringify(data);
         localStorage.setItem('frontend-navigation-version', document.querySelector('head').dataset.version);
-        localStorage.setItem('frontend-navigation-data', response);
+        localStorage.setItem('frontend-navigation-data', json);
       })
       .then(() => {
         if (location.hash) {
@@ -142,6 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
           changeHeadColor();
         }
       })
-      .catch(e => console.error(e));
+      .catch((err) => { throw new Error(err); });
   }
 });
