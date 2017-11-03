@@ -9,7 +9,7 @@ function openLink(e) {
   open(this.href);
 }
 
-function rmActive(e) {
+function rmActive() {
   const el = document.getElementsByClassName('is-active');
   for (let i = 0; i < el.length; i++) {
     el[i].classList.remove('is-active');
@@ -25,14 +25,14 @@ function toggleActive(el) {
   }
 }
 
-function changeHash(e) {
+function changeHash() {
   toggleActive(this);
   // 修改hash
   const newHistory = this.parentNode.getAttribute('id');
   history.replaceState({ hash: newHistory }, '', `#${newHistory}`);
 }
 
-function changeHeadColor(e) {
+function changeHeadColor() {
   rmActive();
   const hashName = location.hash;
   const targetHead = document.querySelector(hashName).querySelector('.thead');
@@ -42,17 +42,6 @@ function changeHeadColor(e) {
 function scrollToHash() {
   const hash = location.hash;
   document.querySelector(hash).scrollIntoView();
-}
-
-function addText(el, str) {
-  const textNode = document.createTextNode(str);
-  el.appendChild(textNode);
-}
-
-function setAttributes(el, attrs) {
-  for (let key in attrs) {
-    el.setAttribute(key, attrs[key]);
-  }
 }
 
 function createBody(response) {
@@ -111,9 +100,8 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .then((data) => {
         document.body.innerHTML = createBody(data);
-        const json = JSON.stringify(data);
-        localStorage.setItem('frontend-navigation-version', document.querySelector('head').dataset.version);
-        localStorage.setItem('frontend-navigation-data', json);
+        localStorage.setItem('frontend-navigation-version', document.head.dataset.version);
+        localStorage.setItem('frontend-navigation-data', JSON.stringify(data));
       })
       .then(() => {
         if (location.hash) {
@@ -130,9 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < linkEl.length; i++) {
       linkEl[i].addEventListener('click', openLink, false);
     }
-
     // .thead onclick
-    const tHead = document.querySelectorAll('.thead');
+    const tHead = document.getElementsByClassName('thead');
     for (let i = 0; i < tHead.length; i++) {
       tHead[i].addEventListener('click', changeHash, false);
     }
