@@ -57,50 +57,34 @@ function setAttributes(el, attrs) {
 
 function createBody(response) {
   const data = response;
-  data.forEach((item) => {
-    const category = document.createElement('div');
-    setAttributes(category, { id: item.type, class: 'table' });
-
-    const cateHead = document.createElement('figure');
-    cateHead.setAttribute('class', 'thead');
-    addText(cateHead, item.name);
-    category.appendChild(cateHead);
-
-    const cateBody = document.createElement('figure');
-    cateBody.setAttribute('class', 'tbody');
-
-    item.data.forEach((iData) => {
-      const link = document.createElement('a');
-      link.setAttribute('href', iData[1]);
-      const elWrap = document.createElement('figure');
-      const elTitle = document.createElement('figcaption');
-      addText(elTitle, iData[0]);
-
-      const elDesc = document.createElement('p');
-      elDesc.setAttribute('class', 'desc');
-      addText(elDesc, iData[2]);
-
-      elWrap.appendChild(elTitle);
-      elWrap.appendChild(elDesc);
-      link.appendChild(elWrap);
-      cateBody.appendChild(link);
-      category.appendChild(cateBody);
+  const newHead = name => `<figure class="thead">${name}</figure>`;
+  const newItem = item => `
+    <a href="${item[1]}">
+      <figure>
+        <figcaption>${item[0]}</figcaption>
+          <p class="desc">${item[2]}</p>
+        </figure>
+    </a>
+    `;
+  const newBody = (d) => {
+    let result = '';
+    d.forEach((item) => {
+      result += newItem(item);
     });
+    return `<figure class="tbody">${result}</figure>`;
+  };
+  const newCategory = d => `
+      <div id="${d.type}" class="table">
+        ${newHead(d.name)}
+        ${newBody(d.data)}
+      </div>
+    `;
 
-    document.body.appendChild(category);
+  let result = '';
+  data.forEach((category) => {
+    result += newCategory(category);
   });
-
-  // link onclick
-  const linkEl = document.getElementsByTagName('a');
-  for (let i = 0; i < linkEl.length; i++) {
-    linkEl[i].addEventListener('click', openLink, false);
-  }
-
-  // .thead onclick
-  const tHead = document.querySelectorAll('.thead');
-  for (let i = 0; i < tHead.length; i++) {
-    tHead[i].addEventListener('click', changeHash, false);
-  }
+  return `${result}`;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -109,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (compareVersion()) {
     const data = localStorage.getItem('frontend-navigation-data');
-    createBody(JSON.parse(data));
+    document.body.innerHTML = createBody(JSON.parse(data));
     setTimeout(() => {
       if (location.hash) {
         scrollToHash();
@@ -126,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new TypeError('JSON please');
       })
       .then((data) => {
-        createBody(data);
+        document.body.innerHTML = createBody(data);
         const json = JSON.stringify(data);
         localStorage.setItem('frontend-navigation-version', document.querySelector('head').dataset.version);
         localStorage.setItem('frontend-navigation-data', json);
@@ -139,4 +123,18 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch((err) => { throw new Error(err); });
   }
+
+  window.addEventListener('load', () => {
+    // link onclick
+    const linkEl = document.getElementsByTagName('a');
+    for (let i = 0; i < linkEl.length; i++) {
+      linkEl[i].addEventListener('click', openLink, false);
+    }
+
+    // .thead onclick
+    const tHead = document.querySelectorAll('.thead');
+    for (let i = 0; i < tHead.length; i++) {
+      tHead[i].addEventListener('click', changeHash, false);
+    }
+  });
 });
