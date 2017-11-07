@@ -3,1202 +3,1202 @@
     "type": "cdn",
     "name": "CDN",
     "data": [
-      [
-        "cdnjs",
-        "https://cdnjs.com/",
-        "應有盡有"
-      ],
-      [
-        "GoogleCDN",
-        "https://developers.google.com/speed/libraries/",
-        ""
-      ],
-      [
-        "RawGit",
-        "https://rawgit.com/",
-        ""
-      ],
-      [
-        "MicrosoftCDN",
-        "https://www.asp.net/ajax/cdn",
-        ""
-      ]
+      {
+        "name": "cdnjs",
+        "url": "https://cdnjs.com/",
+        "desc": "應有盡有"
+      },
+      {
+        "name": "GoogleCDN",
+        "url": "https://developers.google.com/speed/libraries/",
+        "desc": ""
+      },
+      {
+        "name": "RawGit",
+        "url": "https://rawgit.com/",
+        "desc": ""
+      },
+      {
+        "name": "MicrosoftCDN",
+        "url": "https://www.asp.net/ajax/cdn",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "http",
     "name": "HTTP",
     "data": [
-      [
-        "HttpWatch",
-        "https://www.httpwatch.com/",
-        "各項通訊偵測"
-      ],
-      [
-        "Fiddler",
-        "https://www.telerik.com/fiddler",
-        "各項通訊偵測"
-      ]
+      {
+        "name": "HttpWatch",
+        "url": "https://www.httpwatch.com/",
+        "desc": "各項通訊偵測"
+      },
+      {
+        "name": "Fiddler",
+        "url": "https://www.telerik.com/fiddler",
+        "desc": "各項通訊偵測"
+      }
     ]
   },
   {
     "type": "prototype",
     "name": "原型設計",
     "data": [
-      [
-        "Proto.io",
-        "https://proto.io/",
-        ""
-      ],
-      [
-        "Framer",
-        "https://framerjs.com/",
-        "製作動態原型"
-      ],
-      [
-        "Origami",
-        "https://facebook.github.io/origami/",
-        "由Facebook開發"
-      ],
-      [
-        "Form",
-        "http://www.relativewave.com/form/",
-        "Google已併購"
-      ]
+      {
+        "name": "Proto.io",
+        "url": "https://proto.io/",
+        "desc": ""
+      },
+      {
+        "name": "Framer",
+        "url": "https://framerjs.com/",
+        "desc": "製作動態原型"
+      },
+      {
+        "name": "Origami",
+        "url": "https://facebook.github.io/origami/",
+        "desc": "由Facebook開發"
+      },
+      {
+        "name": "Form",
+        "url": "http://www.relativewave.com/form/",
+        "desc": "Google已併購"
+      }
     ]
   },
   {
     "type": "api",
     "name": "API",
     "data": [
-      [
-        "overAPI",
-        "http://overapi.com/",
-        "各種API"
-      ],
-      [
-        "DevDocs",
-        "https://devdocs.io/",
-        "各種API"
-      ],
-      [
-        "The Web platform",
-        "https://platform.html5.org/",
-        "瀏覽器技術總覽"
-      ]
+      {
+        "name": "overAPI",
+        "url": "http://overapi.com/",
+        "desc": "各種API"
+      },
+      {
+        "name": "DevDocs",
+        "url": "https://devdocs.io/",
+        "desc": "各種API"
+      },
+      {
+        "name": "The Web platform",
+        "url": "https://platform.html5.org/",
+        "desc": "瀏覽器技術總覽"
+      }
     ]
   },
   {
     "type": "team-work",
     "name": "團隊合作",
     "data": [
-      [
-        "Slack",
-        "https://slack.com/",
-        "適合團隊的即時通訊"
-      ],
-      [
-        "Trello",
-        "https://trello.com",
-        "專案管理平台"
-      ],
-      [
-        "Asana",
-        "https://asana.com/",
-        ""
-      ],
-      [
-        "JIRA",
-        "https://www.atlassian.com/software/jira",
-        ""
-      ],
-      [
-        "ZenHub",
-        "https://www.zenhub.com/",
-        ""
-      ],
-      [
-        "Waffle.io",
-        "https://waffle.io/",
-        ""
-      ],
-      [
-        "Airtable",
-        "https://airtable.com/",
-        ""
-      ],
-      [
-        "Notion",
-        "https://www.notion.so/",
-        "適合整理控"
-      ]
+      {
+        "name": "Slack",
+        "url": "https://slack.com/",
+        "desc": "適合團隊的即時通訊"
+      },
+      {
+        "name": "Trello",
+        "url": "https://trello.com",
+        "desc": "專案管理平台"
+      },
+      {
+        "name": "Asana",
+        "url": "https://asana.com/",
+        "desc": ""
+      },
+      {
+        "name": "JIRA",
+        "url": "https://www.atlassian.com/software/jira",
+        "desc": ""
+      },
+      {
+        "name": "ZenHub",
+        "url": "https://www.zenhub.com/",
+        "desc": ""
+      },
+      {
+        "name": "Waffle.io",
+        "url": "https://waffle.io/",
+        "desc": ""
+      },
+      {
+        "name": "Airtable",
+        "url": "https://airtable.com/",
+        "desc": ""
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/",
+        "desc": "適合整理控"
+      }
     ]
   },
   {
     "type": "placeholder-images",
     "name": "佔位圖",
     "data": [
-      [
-        "dummyimage",
-        "https://dummyimage.com",
-        ""
-      ],
-      [
-        "placekitten",
-        "https://placekitten.com/",
-        "都是貓"
-      ],
-      [
-        "lorempixum",
-        "https://lorempixel.com/",
-        ""
-      ],
-      [
-        "placehold.it",
-        "https://placehold.it/",
-        ""
-      ],
-      [
-        "placebeard.it",
-        "https://placebeard.it/",
-        "鬍子！鬍子！"
-      ],
-      [
-        "PlaceIMG",
-        "https://placeimg.com/",
-        ""
-      ]
+      {
+        "name": "dummyimage",
+        "url": "https://dummyimage.com",
+        "desc": ""
+      },
+      {
+        "name": "placekitten",
+        "url": "https://placekitten.com/",
+        "desc": "都是貓"
+      },
+      {
+        "name": "lorempixum",
+        "url": "https://lorempixel.com/",
+        "desc": ""
+      },
+      {
+        "name": "placehold.it",
+        "url": "https://placehold.it/",
+        "desc": ""
+      },
+      {
+        "name": "placebeard.it",
+        "url": "https://placebeard.it/",
+        "desc": "鬍子！鬍子！"
+      },
+      {
+        "name": "PlaceIMG",
+        "url": "https://placeimg.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "image-optimize",
     "name": "影像最佳化",
     "data": [
-      [
-        "ImageMagick",
-        "https://www.imagemagick.org/",
-        "整合多功能（命令列程式）"
-      ],
-      [
-        "pngquant",
-        "https://pngquant.org/",
-        "PNG最佳化（命令列程式）"
-      ],
-      [
-        "libjpeg",
-        "http://libjpeg.sourceforge.net/",
-        "jpeg最佳化（命令列程式）"
-      ],
-      [
-        "PNGGauntlet",
-        "https://pnggauntlet.com/",
-        "PNG最佳化"
-      ],
-      [
-        "TinyPNG",
-        "https://tinypng.com/",
-        "線上最佳化"
-      ]
+      {
+        "name": "ImageMagick",
+        "url": "https://www.imagemagick.org/",
+        "desc": "整合多功能（命令列程式）"
+      },
+      {
+        "name": "pngquant",
+        "url": "https://pngquant.org/",
+        "desc": "PNG最佳化（命令列程式）"
+      },
+      {
+        "name": "libjpeg",
+        "url": "http://libjpeg.sourceforge.net/",
+        "desc": "jpeg最佳化（命令列程式）"
+      },
+      {
+        "name": "PNGGauntlet",
+        "url": "https://pnggauntlet.com/",
+        "desc": "PNG最佳化"
+      },
+      {
+        "name": "TinyPNG",
+        "url": "https://tinypng.com/",
+        "desc": "線上最佳化"
+      }
     ]
   },
   {
     "type": "fonts",
     "name": "字型",
     "data": [
-      [
-        "Google Fonts",
-        "https://fonts.google.com/",
-        "免費網路字型"
-      ],
-      [
-        "Font Squirrel",
-        "https://www.fontsquirrel.com/",
-        "免費字型下載"
-      ],
-      [
-        "Adobe Edge Web Fonts",
-        "https://edgewebfonts.adobe.com/",
-        ""
-      ],
-      [
-        "justfont",
-        "https://www.justfont.com/",
-        "就是字"
-      ],
-      [
-        "字蛛",
-        "http://font-spider.org/",
-        "中文字型壓縮器"
-      ]
+      {
+        "name": "Google Fonts",
+        "url": "https://fonts.google.com/",
+        "desc": "免費網路字型"
+      },
+      {
+        "name": "Font Squirrel",
+        "url": "https://www.fontsquirrel.com/",
+        "desc": "免費字型下載"
+      },
+      {
+        "name": "Adobe Edge Web Fonts",
+        "url": "https://edgewebfonts.adobe.com/",
+        "desc": ""
+      },
+      {
+        "name": "justfont",
+        "url": "https://www.justfont.com/",
+        "desc": "就是字"
+      },
+      {
+        "name": "字蛛",
+        "url": "http://font-spider.org/",
+        "desc": "中文字型壓縮器"
+      }
     ]
   },
   {
     "type": "icon-font",
     "name": "Icon Font",
     "data": [
-      [
-        "Font Awesome",
-        "http://fontawesome.io/",
-        "Bootstrap的好朋友"
-      ],
-      [
-        "Fontello",
-        "http://fontello.com/",
-        ""
-      ],
-      [
-        "Github Octicons",
-        "https://octicons.github.com/",
-        "Github的icon"
-      ],
-      [
-        "IcoMoon",
-        "https://icomoon.io/",
-        ""
-      ],
-      [
-        "Noun Project",
-        "https://thenounproject.com/",
-        "全世界的icon"
-      ],
-      [
-        "Entypo",
-        "http://www.entypo.com/",
-        ""
-      ],
-      [
-        "CSS ICON",
-        "http://cssicon.space/",
-        "純CSS"
-      ],
-      [
-        "Icon Font",
-        "https://leungwensen.github.io/svg-icon/",
-        "svg-icon"
-      ]
+      {
+        "name": "Font Awesome",
+        "url": "http://fontawesome.io/",
+        "desc": "Bootstrap的好朋友"
+      },
+      {
+        "name": "Fontello",
+        "url": "http://fontello.com/",
+        "desc": ""
+      },
+      {
+        "name": "Github Octicons",
+        "url": "https://octicons.github.com/",
+        "desc": "Github的icon"
+      },
+      {
+        "name": "IcoMoon",
+        "url": "https://icomoon.io/",
+        "desc": ""
+      },
+      {
+        "name": "Noun Project",
+        "url": "https://thenounproject.com/",
+        "desc": "全世界的icon"
+      },
+      {
+        "name": "Entypo",
+        "url": "http://www.entypo.com/",
+        "desc": ""
+      },
+      {
+        "name": "CSS ICON",
+        "url": "http://cssicon.space/",
+        "desc": "純CSS"
+      },
+      {
+        "name": "Icon Font",
+        "url": "https://leungwensen.github.io/svg-icon/",
+        "desc": "svg-icon"
+      }
     ]
   },
   {
     "type": "js-framework",
     "name": "JS框架",
     "data": [
-      [
-        "React",
-        "https://facebook.github.io/react/",
-        ""
-      ],
-      [
-        "Vue.js",
-        "https://vuejs.org/",
-        ""
-      ],
-      [
-        "Angular",
-        "https://angularjs.org/",
-        ""
-      ],
-      [
-        "Backbone.js",
-        "http://backbonejs.org/",
-        ""
-      ],
-      [
-        "Knockout.js",
-        "http://knockoutjs.com/",
-        ""
-      ],
-      [
-        "Ember.js",
-        "http://emberjs.com/",
-        ""
-      ]
+      {
+        "name": "React",
+        "url": "https://facebook.github.io/react/",
+        "desc": ""
+      },
+      {
+        "name": "Vue.js",
+        "url": "https://vuejs.org/",
+        "desc": ""
+      },
+      {
+        "name": "Angular",
+        "url": "https://angularjs.org/",
+        "desc": ""
+      },
+      {
+        "name": "Backbone.js",
+        "url": "http://backbonejs.org/",
+        "desc": ""
+      },
+      {
+        "name": "Knockout.js",
+        "url": "http://knockoutjs.com/",
+        "desc": ""
+      },
+      {
+        "name": "Ember.js",
+        "url": "http://emberjs.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "library",
     "name": "函式庫",
     "data": [
-      [
-        "Ramda",
-        "http://ramdajs.com/",
-        "Functional Programming"
-      ],
-      [
-        "jQuery",
-        "https://jquery.com/",
-        ""
-      ],
-      [
-        "jQuery UI",
-        "https://jqueryui.com/",
-        ""
-      ],
-      [
-        "Underscore",
-        "http://underscorejs.org",
-        ""
-      ],
-      [
-        "YUI",
-        "http://yuilibrary.com/",
-        ""
-      ]
+      {
+        "name": "Ramda",
+        "url": "http://ramdajs.com/",
+        "desc": "Functional Programming"
+      },
+      {
+        "name": "jQuery",
+        "url": "https://jquery.com/",
+        "desc": ""
+      },
+      {
+        "name": "jQuery UI",
+        "url": "https://jqueryui.com/",
+        "desc": ""
+      },
+      {
+        "name": "Underscore",
+        "url": "http://underscorejs.org",
+        "desc": ""
+      },
+      {
+        "name": "YUI",
+        "url": "http://yuilibrary.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "css-framework",
     "name": "CSS框架",
     "data": [
-      [
-        "Bootstrap",
-        "https://getbootstrap.com/",
-        ""
-      ],
-      [
-        "Foundation",
-        "https://foundation.zurb.com/",
-        ""
-      ],
-      [
-        "Flat UI",
-        "https://designmodo.github.io/Flat-UI/",
-        ""
-      ],
-      [
-        "Semantic UI",
-        "http://semantic-ui.com/",
-        ""
-      ],
-      [
-        "Susy",
-        "http://susy.oddbird.net/",
-        ""
-      ]
+      {
+        "name": "Bootstrap",
+        "url": "https://getbootstrap.com/",
+        "desc": ""
+      },
+      {
+        "name": "Foundation",
+        "url": "https://foundation.zurb.com/",
+        "desc": ""
+      },
+      {
+        "name": "Flat UI",
+        "url": "https://designmodo.github.io/Flat-UI/",
+        "desc": ""
+      },
+      {
+        "name": "Semantic UI",
+        "url": "http://semantic-ui.com/",
+        "desc": ""
+      },
+      {
+        "name": "Susy",
+        "url": "http://susy.oddbird.net/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "css-preprocessor",
     "name": "CSS預處理器",
     "data": [
-      [
-        "Sass",
-        "http://sass-lang.com/",
-        ""
-      ],
-      [
-        "Less",
-        "http://lesscss.org/",
-        ""
-      ],
-      [
-        "PostCSS",
-        "http://postcss.org/",
-        ""
-      ],
-      [
-        "Skeleton",
-        "http://getskeleton.com/",
-        ""
-      ],
-      [
-        "Myth",
-        "http://www.myth.io/",
-        ""
-      ]
+      {
+        "name": "Sass",
+        "url": "http://sass-lang.com/",
+        "desc": ""
+      },
+      {
+        "name": "Less",
+        "url": "http://lesscss.org/",
+        "desc": ""
+      },
+      {
+        "name": "PostCSS",
+        "url": "http://postcss.org/",
+        "desc": ""
+      },
+      {
+        "name": "Skeleton",
+        "url": "http://getskeleton.com/",
+        "desc": ""
+      },
+      {
+        "name": "Myth",
+        "url": "http://www.myth.io/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "editor",
     "name": "編輯器",
     "data": [
-      [
-        "VIM",
-        "http://www.vim.org/",
-        "編輯器之神"
-      ],
-      [
-        "VSCode",
-        "https://code.visualstudio.com/",
-        ""
-      ],
-      [
-        "Sublime Text",
-        "https://www.sublimetext.com/",
-        ""
-      ],
-      [
-        "Atom",
-        "https://atom.io/",
-        ""
-      ],
-      [
-        "Xcode",
-        "https://developer.apple.com/xcode/",
-        ""
-      ],
-      [
-        "Aptana",
-        "http://www.aptana.com/",
-        ""
-      ],
-      [
-        "Notepad++",
-        "https://notepad-plus-plus.org/",
-        "台灣製造"
-      ],
-      [
-        "Brackets",
-        "http://brackets.io/",
-        ""
-      ],
-      [
-        "Emacs",
-        "https://www.gnu.org/software/emacs/",
-        "神之編輯器"
-      ],
-      [
-        "spacemacs",
-        "http://spacemacs.org/",
-        ""
-      ],
-      [
-        "Coda",
-        "https://panic.com/coda/",
-        ""
-      ],
-      [
-        "Kate",
-        "https://kate-editor.org/",
-        ""
-      ],
-      [
-        "Micro",
-        "https://micro-editor.github.io/",
-        "終端機新選擇"
-      ]
+      {
+        "name": "VIM",
+        "url": "http://www.vim.org/",
+        "desc": "編輯器之神"
+      },
+      {
+        "name": "VSCode",
+        "url": "https://code.visualstudio.com/",
+        "desc": ""
+      },
+      {
+        "name": "Sublime Text",
+        "url": "https://www.sublimetext.com/",
+        "desc": ""
+      },
+      {
+        "name": "Atom",
+        "url": "https://atom.io/",
+        "desc": ""
+      },
+      {
+        "name": "Xcode",
+        "url": "https://developer.apple.com/xcode/",
+        "desc": ""
+      },
+      {
+        "name": "Aptana",
+        "url": "http://www.aptana.com/",
+        "desc": ""
+      },
+      {
+        "name": "Notepad++",
+        "url": "https://notepad-plus-plus.org/",
+        "desc": "台灣製造"
+      },
+      {
+        "name": "Brackets",
+        "url": "http://brackets.io/",
+        "desc": ""
+      },
+      {
+        "name": "Emacs",
+        "url": "https://www.gnu.org/software/emacs/",
+        "desc": "神之編輯器"
+      },
+      {
+        "name": "spacemacs",
+        "url": "http://spacemacs.org/",
+        "desc": ""
+      },
+      {
+        "name": "Coda",
+        "url": "https://panic.com/coda/",
+        "desc": ""
+      },
+      {
+        "name": "Kate",
+        "url": "https://kate-editor.org/",
+        "desc": ""
+      },
+      {
+        "name": "Micro",
+        "url": "https://micro-editor.github.io/",
+        "desc": "終端機新選擇"
+      }
     ]
   },
   {
     "type": "ide",
     "name": "IDE",
     "data": [
-      [
-        "Visual Studio",
-        "https://www.visualstudio.com/",
-        ""
-      ],
-      [
-        "WebStorm",
-        "https://www.jetbrains.com/webstorm/",
-        ""
-      ],
-      [
-        "Cloud9",
-        "https://c9.io/",
-        ""
-      ],
-      [
-        "Dreamweaver",
-        "https://www.adobe.com/tw/products/dreamweaver.html",
-        ""
-      ],
-      [
-        "UEditor",
-        "http://ueditor.baidu.com/website/",
-        ""
-      ],
-      [
-        "TextMate",
-        "https://macromates.com/",
-        ""
-      ]
+      {
+        "name": "Visual Studio",
+        "url": "https://www.visualstudio.com/",
+        "desc": ""
+      },
+      {
+        "name": "WebStorm",
+        "url": "https://www.jetbrains.com/webstorm/",
+        "desc": ""
+      },
+      {
+        "name": "Cloud9",
+        "url": "https://c9.io/",
+        "desc": ""
+      },
+      {
+        "name": "Dreamweaver",
+        "url": "https://www.adobe.com/tw/products/dreamweaver.html",
+        "desc": ""
+      },
+      {
+        "name": "UEditor",
+        "url": "http://ueditor.baidu.com/website/",
+        "desc": ""
+      },
+      {
+        "name": "TextMate",
+        "url": "https://macromates.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "playground",
     "name": "程式碼分享",
     "data": [
-      [
-        "CodePen",
-        "https://codepen.io/",
-        ""
-      ],
-      [
-        "jsdo.it",
-        "https://jsdo.it",
-        ""
-      ],
-      [
-        "JS Bin",
-        "https://jsbin.com/",
-        ""
-      ],
-      [
-        "JSFiddle",
-        "https://jsfiddle.net/",
-        ""
-      ],
-      [
-        "Codepad",
-        "https://codepad.co",
-        ""
-      ],
-      [
-        "CODEPLY",
-        "https://www.codeply.com/",
-        ""
-      ],
-      [
-        "Codepad",
-        "https://codepad.co/",
-        ""
-      ],
-      [
-        "Gist",
-        "https://gist.github.com/",
-        ""
-      ]
+      {
+        "name": "CodePen",
+        "url": "https://codepen.io/",
+        "desc": ""
+      },
+      {
+        "name": "jsdo.it",
+        "url": "https://jsdo.it",
+        "desc": ""
+      },
+      {
+        "name": "JS Bin",
+        "url": "https://jsbin.com/",
+        "desc": ""
+      },
+      {
+        "name": "JSFiddle",
+        "url": "https://jsfiddle.net/",
+        "desc": ""
+      },
+      {
+        "name": "Codepad",
+        "url": "https://codepad.co",
+        "desc": ""
+      },
+      {
+        "name": "CODEPLY",
+        "url": "https://www.codeply.com/",
+        "desc": ""
+      },
+      {
+        "name": "Codepad",
+        "url": "https://codepad.co/",
+        "desc": ""
+      },
+      {
+        "name": "Gist",
+        "url": "https://gist.github.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "js-transpiler",
     "name": "JS轉譯器",
     "data": [
-      [
-        "Babel",
-        "https://babeljs.io/",
-        "ES6轉譯為ES5"
-      ],
-      [
-        "CoffeeScript",
-        "http://coffeescript.org/",
-        "讓JS更簡潔"
-      ],
-      [
-        "TypeScript",
-        "https://www.typescriptlang.org/",
-        "Angular 2官方推薦"
-      ],
-      [
-        "JSX",
-        "https://facebook.github.io/jsx/",
-        "React官方推薦"
-      ]
+      {
+        "name": "Babel",
+        "url": "https://babeljs.io/",
+        "desc": "ES6轉譯為ES5"
+      },
+      {
+        "name": "CoffeeScript",
+        "url": "http://coffeescript.org/",
+        "desc": "讓JS更簡潔"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://www.typescriptlang.org/",
+        "desc": "Angular 2官方推薦"
+      },
+      {
+        "name": "JSX",
+        "url": "https://facebook.github.io/jsx/",
+        "desc": "React官方推薦"
+      }
     ]
   },
   {
     "type": "automation",
     "name": "自動化構建",
     "data": [
-      [
-        "Yeoman",
-        "http://yeoman.io/",
-        ""
-      ],
-      [
-        "Gulp",
-        "http://gulpjs.com/",
-        ""
-      ],
-      [
-        "Grunt",
-        "http://gruntjs.com/",
-        ""
-      ]
+      {
+        "name": "Yeoman",
+        "url": "http://yeoman.io/",
+        "desc": ""
+      },
+      {
+        "name": "Gulp",
+        "url": "http://gulpjs.com/",
+        "desc": ""
+      },
+      {
+        "name": "Grunt",
+        "url": "http://gruntjs.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "module-bundler",
     "name": "模組化管理",
     "data": [
-      [
-        "Webpack",
-        "https://webpack.github.io/",
-        ""
-      ],
-      [
-        "rollup",
-        "http://rollupjs.org/",
-        ""
-      ],
-      [
-        "CommonJS",
-        "http://www.commonjs.org/",
-        ""
-      ],
-      [
-        "AMD",
-        "https://github.com/amdjs/amdjs-api/wiki/AMD",
-        ""
-      ]
+      {
+        "name": "Webpack",
+        "url": "https://webpack.github.io/",
+        "desc": ""
+      },
+      {
+        "name": "rollup",
+        "url": "http://rollupjs.org/",
+        "desc": ""
+      },
+      {
+        "name": "CommonJS",
+        "url": "http://www.commonjs.org/",
+        "desc": ""
+      },
+      {
+        "name": "AMD",
+        "url": "https://github.com/amdjs/amdjs-api/wiki/AMD",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "package-manager",
     "name": "套件管理",
     "data": [
-      [
-        "Yarn",
-        "https://yarnpkg.com/",
-        "比npm更快"
-      ],
-      [
-        "NPM",
-        "https://www.npmjs.com/",
-        "Node.js內建"
-      ],
-      [
-        "Bower",
-        "https://bower.io/",
-        ""
-      ],
-      [
-        "Homebrew",
-        "http://brew.sh/",
-        ""
-      ]
+      {
+        "name": "Yarn",
+        "url": "https://yarnpkg.com/",
+        "desc": "比npm更快"
+      },
+      {
+        "name": "NPM",
+        "url": "https://www.npmjs.com/",
+        "desc": "Node.js內建"
+      },
+      {
+        "name": "Bower",
+        "url": "https://bower.io/",
+        "desc": ""
+      },
+      {
+        "name": "Homebrew",
+        "url": "http://brew.sh/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "js-quality",
     "name": "JS品質管理",
     "data": [
-      [
-        "ESLint",
-        "http://eslint.org/",
-        ""
-      ],
-      [
-        "JSHint",
-        "http://jshint.com/",
-        ""
-      ],
-      [
-        "JSLint",
-        "http://www.jslint.com/",
-        ""
-      ],
-      [
-        "JSCS",
-        "http://jscs.info/",
-        "JS撰寫風格標準"
-      ]
+      {
+        "name": "ESLint",
+        "url": "http://eslint.org/",
+        "desc": ""
+      },
+      {
+        "name": "JSHint",
+        "url": "http://jshint.com/",
+        "desc": ""
+      },
+      {
+        "name": "JSLint",
+        "url": "http://www.jslint.com/",
+        "desc": ""
+      },
+      {
+        "name": "JSCS",
+        "url": "http://jscs.info/",
+        "desc": "JS撰寫風格標準"
+      }
     ]
   },
   {
     "type": "unit-test",
     "name": "單元測試",
     "data": [
-      [
-        "AVA",
-        "https://github.com/avajs/ava",
-        ""
-      ],
-      [
-        "Mocha",
-        "https://mochajs.org/",
-        ""
-      ],
-      [
-        "Chai",
-        "http://chaijs.com/",
-        ""
-      ],
-      [
-        "Jasmine",
-        "https://jasmine.github.io/",
-        ""
-      ],
-      [
-        "Karma",
-        "https://karma-runner.github.io/",
-        ""
-      ],
-      [
-        "Protractor",
-        "http://www.protractortest.org/",
-        ""
-      ],
-      [
-        "Buster.js",
-        "http://docs.busterjs.org/",
-        ""
-      ]
+      {
+        "name": "AVA",
+        "url": "https://github.com/avajs/ava",
+        "desc": ""
+      },
+      {
+        "name": "Mocha",
+        "url": "https://mochajs.org/",
+        "desc": ""
+      },
+      {
+        "name": "Chai",
+        "url": "http://chaijs.com/",
+        "desc": ""
+      },
+      {
+        "name": "Jasmine",
+        "url": "https://jasmine.github.io/",
+        "desc": ""
+      },
+      {
+        "name": "Karma",
+        "url": "https://karma-runner.github.io/",
+        "desc": ""
+      },
+      {
+        "name": "Protractor",
+        "url": "http://www.protractortest.org/",
+        "desc": ""
+      },
+      {
+        "name": "Buster.js",
+        "url": "http://docs.busterjs.org/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "ci-cd",
     "name": "CI/CD",
     "data": [
-      [
-        "Travis CI",
-        "https://travis-ci.org/",
-        ""
-      ],
-      [
-        "Jenkins",
-        "https://jenkins.io/",
-        ""
-      ],
-      [
-        "GitLab CI",
-        "https://about.gitlab.com/features/gitlab-ci-cd/",
-        ""
-      ],
-      [
-        "BuildBot",
-        "https://buildbot.net/",
-        ""
-      ],
-      [
-        "Drone",
-        "https://github.com/drone/drone",
-        ""
-      ],
-      [
-        "Concourse",
-        "https://concourse.ci/",
-        ""
-      ]
+      {
+        "name": "Travis CI",
+        "url": "https://travis-ci.org/",
+        "desc": ""
+      },
+      {
+        "name": "Jenkins",
+        "url": "https://jenkins.io/",
+        "desc": ""
+      },
+      {
+        "name": "GitLab CI",
+        "url": "https://about.gitlab.com/features/gitlab-ci-cd/",
+        "desc": ""
+      },
+      {
+        "name": "BuildBot",
+        "url": "https://buildbot.net/",
+        "desc": ""
+      },
+      {
+        "name": "Drone",
+        "url": "https://github.com/drone/drone",
+        "desc": ""
+      },
+      {
+        "name": "Concourse",
+        "url": "https://concourse.ci/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "enviroment",
     "name": "環境",
     "data": [
-      [
-        "Node.js",
-        "https://nodejs.org/",
-        ""
-      ]
+      {
+        "name": "Node.js",
+        "url": "https://nodejs.org/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "campatibility",
     "name": "兼容性",
     "data": [
-      [
-        "Can I use?",
-        "http://caniuse.com/",
-        "查詢瀏覽器支援度"
-      ],
-      [
-        "Modernizr",
-        "https://modernizr.com/",
-        ""
-      ],
-      [
-        "Browserhacks",
-        "http://browserhacks.com/",
-        "瀏覽器hack速查"
-      ]
+      {
+        "name": "Can I use?",
+        "url": "http://caniuse.com/",
+        "desc": "查詢瀏覽器支援度"
+      },
+      {
+        "name": "Modernizr",
+        "url": "https://modernizr.com/",
+        "desc": ""
+      },
+      {
+        "name": "Browserhacks",
+        "url": "http://browserhacks.com/",
+        "desc": "瀏覽器hack速查"
+      }
     ]
   },
   {
     "type": "c-testing",
     "name": "兼容性測試",
     "data": [
-      [
-        "Browser Sandbox",
-        "https://turbo.net/browsers",
-        "瀏覽器環境測試"
-      ],
-      [
-        "IETester",
-        "http://www.my-debugbar.com/wiki/IETester/",
-        ""
-      ],
-      [
-        "BrowserShots",
-        "https://browsershots.org/",
-        ""
-      ],
-      [
-        "Manymo emulators",
-        "https://www.manymo.com/emulators",
-        ""
-      ]
+      {
+        "name": "Browser Sandbox",
+        "url": "https://turbo.net/browsers",
+        "desc": "瀏覽器環境測試"
+      },
+      {
+        "name": "IETester",
+        "url": "http://www.my-debugbar.com/wiki/IETester/",
+        "desc": ""
+      },
+      {
+        "name": "BrowserShots",
+        "url": "https://browsershots.org/",
+        "desc": ""
+      },
+      {
+        "name": "Manymo emulators",
+        "url": "https://www.manymo.com/emulators",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "debugging",
     "name": "Debugging",
     "data": [
-      [
-        "jsconsole",
-        "https://jsconsole.com/",
-        ""
-      ]
+      {
+        "name": "jsconsole",
+        "url": "https://jsconsole.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "performance",
     "name": "效能",
     "data": [
-      [
-        "PageSpeed",
-        "https://developers.google.com/speed/pagespeed/",
-        ""
-      ],
-      [
-        "showslow",
-        "https://www.showslow.com/",
-        ""
-      ],
-      [
-        "webpagetest",
-        "https://www.webpagetest.org/",
-        ""
-      ],
-      [
-        "pingdom",
-        "https://tools.pingdom.com/",
-        ""
-      ],
-      [
-        "Neustar Web Performance",
-        "https://www.neustar.biz/resources/tools/free-website-performance-test",
-        ""
-      ],
-      [
-        "load impact",
-        "https://loadimpact.com/",
-        ""
-      ],
-      [
-        "GTmetrix",
-        "https://gtmetrix.com/",
-        ""
-      ]
+      {
+        "name": "PageSpeed",
+        "url": "https://developers.google.com/speed/pagespeed/",
+        "desc": ""
+      },
+      {
+        "name": "showslow",
+        "url": "https://www.showslow.com/",
+        "desc": ""
+      },
+      {
+        "name": "webpagetest",
+        "url": "https://www.webpagetest.org/",
+        "desc": ""
+      },
+      {
+        "name": "pingdom",
+        "url": "https://tools.pingdom.com/",
+        "desc": ""
+      },
+      {
+        "name": "Neustar Web Performance",
+        "url": "https://www.neustar.biz/resources/tools/free-website-performance-test",
+        "desc": ""
+      },
+      {
+        "name": "load impact",
+        "url": "https://loadimpact.com/",
+        "desc": ""
+      },
+      {
+        "name": "GTmetrix",
+        "url": "https://gtmetrix.com/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "safety",
     "name": "安全性",
     "data": [
-      [
-        "Retire Insecurity Today",
-        "http://retire.insecurity.today/",
-        "檢測js函式庫漏洞"
-      ],
-      [
-        "Websecurify",
-        "https://www.websecurify.com/",
-        ""
-      ],
-      [
-        "x5s",
-        "https://xss.codeplex.com/",
-        "檢測XSS漏洞"
-      ],
-      [
-        "Skipfish",
-        "https://code.google.com/p/skipfish/",
-        ""
-      ],
-      [
-        "OWASP WebScarab Project",
-        "https://www.owasp.org/index.php/Category:OWASP_WebScarab_Project",
-        ""
-      ]
+      {
+        "name": "Retire Insecurity Today",
+        "url": "http://retire.insecurity.today/",
+        "desc": "檢測js函式庫漏洞"
+      },
+      {
+        "name": "Websecurify",
+        "url": "https://www.websecurify.com/",
+        "desc": ""
+      },
+      {
+        "name": "x5s",
+        "url": "https://xss.codeplex.com/",
+        "desc": "檢測XSS漏洞"
+      },
+      {
+        "name": "Skipfish",
+        "url": "https://code.google.com/p/skipfish/",
+        "desc": ""
+      },
+      {
+        "name": "OWASP WebScarab Project",
+        "url": "https://www.owasp.org/index.php/Category:OWASP_WebScarab_Project",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "cross-platform",
     "name": "跨平台",
     "data": [
-      [
-        "Electron",
-        "http://electron.atom.io/",
-        "進攻桌面"
-      ],
-      [
-        "NW.js",
-        "https://nwjs.io",
-        "進攻桌面"
-      ],
-      [
-        "React Native",
-        "https://facebook.github.io/react-native/",
-        "進攻手機"
-      ],
-      [
-        "Meteor",
-        "https://www.meteor.com/",
-        ""
-      ],
-      [
-        "Node-RED",
-        "https://nodered.org/",
-        "視覺化IOT開發"
-      ],
-      [
-        "Ionic",
-        "https://ionicframework.com/",
-        ""
-      ],
-      [
-        "Titanium",
-        "https://www.appcelerator.com/mobile-app-development-products/",
-        ""
-      ],
-      [
-        "PhoneGap",
-        "http://phonegap.com/",
-        ""
-      ],
-      [
-        "Cordova",
-        "https://cordova.apache.org/",
-        ""
-      ]
+      {
+        "name": "Electron",
+        "url": "http://electron.atom.io/",
+        "desc": "進攻桌面"
+      },
+      {
+        "name": "NW.js",
+        "url": "https://nwjs.io",
+        "desc": "進攻桌面"
+      },
+      {
+        "name": "React Native",
+        "url": "https://facebook.github.io/react-native/",
+        "desc": "進攻手機"
+      },
+      {
+        "name": "Meteor",
+        "url": "https://www.meteor.com/",
+        "desc": ""
+      },
+      {
+        "name": "Node-RED",
+        "url": "https://nodered.org/",
+        "desc": "視覺化IOT開發"
+      },
+      {
+        "name": "Ionic",
+        "url": "https://ionicframework.com/",
+        "desc": ""
+      },
+      {
+        "name": "Titanium",
+        "url": "https://www.appcelerator.com/mobile-app-development-products/",
+        "desc": ""
+      },
+      {
+        "name": "PhoneGap",
+        "url": "http://phonegap.com/",
+        "desc": ""
+      },
+      {
+        "name": "Cordova",
+        "url": "https://cordova.apache.org/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "addons",
     "name": "瀏覽器附加工具",
     "data": [
-      [
-        "ColorZilla",
-        "http://www.colorzilla.com/",
-        "網頁拾色"
-      ],
-      [
-        "Page Ruler",
-        "https://github.com/wrakky/page-ruler",
-        "快速量尺寸"
-      ],
-      [
-        "One Tab",
-        "https://www.one-tab.com/",
-        "覺得分頁太多可以試試"
-      ],
-      [
-        "Vimium",
-        "https://vimium.github.io",
-        "Geek不需要滑鼠(chrome)"
-      ],
-      [
-        "cVim",
-        "https://github.com/1995eaton/chromium-vim",
-        "Geek不需要滑鼠(chrome)"
-      ],
-      [
-        "Vimperator",
-        "http://www.vimperator.org/",
-        "Geek不需要滑鼠(firefox)"
-      ],
-      [
-        "Live HTTP Headers",
-        "https://addons.mozilla.org/zh-TW/firefox/addon/live-http-headers/",
-        ""
-      ],
-      [
-        "HttpFox",
-        "https://addons.mozilla.org/zh-TW/firefox/addon/httpfox/",
-        "HTTP分析(firefox)"
-      ],
-      [
-        "Postman",
-        "https://www.getpostman.com/",
-        "HTTP模擬"
-      ],
-      [
-        "AlloyDesigner",
-        "https://alloyteam.github.io/AlloyDesigner/",
-        "幫助確認視覺稿"
-      ],
-      [
-        "WebMaker",
-        "https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh",
-        "離線playground"
-      ]
+      {
+        "name": "ColorZilla",
+        "url": "http://www.colorzilla.com/",
+        "desc": "網頁拾色"
+      },
+      {
+        "name": "Page Ruler",
+        "url": "https://github.com/wrakky/page-ruler",
+        "desc": "快速量尺寸"
+      },
+      {
+        "name": "One Tab",
+        "url": "https://www.one-tab.com/",
+        "desc": "覺得分頁太多可以試試"
+      },
+      {
+        "name": "Vimium",
+        "url": "https://vimium.github.io",
+        "desc": "Geek不需要滑鼠(chrome)"
+      },
+      {
+        "name": "cVim",
+        "url": "https://github.com/1995eaton/chromium-vim",
+        "desc": "Geek不需要滑鼠(chrome)"
+      },
+      {
+        "name": "Vimperator",
+        "url": "http://www.vimperator.org/",
+        "desc": "Geek不需要滑鼠(firefox)"
+      },
+      {
+        "name": "Live HTTP Headers",
+        "url": "https://addons.mozilla.org/zh-TW/firefox/addon/live-http-headers/",
+        "desc": ""
+      },
+      {
+        "name": "HttpFox",
+        "url": "https://addons.mozilla.org/zh-TW/firefox/addon/httpfox/",
+        "desc": "HTTP分析(firefox)"
+      },
+      {
+        "name": "Postman",
+        "url": "https://www.getpostman.com/",
+        "desc": "HTTP模擬"
+      },
+      {
+        "name": "AlloyDesigner",
+        "url": "https://alloyteam.github.io/AlloyDesigner/",
+        "desc": "幫助確認視覺稿"
+      },
+      {
+        "name": "WebMaker",
+        "url": "https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh",
+        "desc": "離線playground"
+      }
     ]
   },
   {
     "type": "rwd",
     "name": "RWD",
     "data": [
-      [
-        "Google Resizer",
-        "https://design.google.com/resizer/",
-        "線上RWD畫面測試"
-      ]
+      {
+        "name": "Google Resizer",
+        "url": "https://design.google.com/resizer/",
+        "desc": "線上RWD畫面測試"
+      }
     ]
   },
   {
     "type": "browser",
     "name": "瀏覽器",
     "data": [
-      [
-        "Chrome",
-        "https://www.google.com.tw/chrome/",
-        "（Blink）"
-      ],
-      [
-        "Firefox",
-        "https://www.mozilla.org/zh-TW/firefox/new/",
-        "（Gecko）"
-      ],
-      [
-        "Edge",
-        "https://www.microsoft.com/zh-tw/windows/microsoft-edge",
-        "（EdgeHTML）"
-      ],
-      [
-        "Safari",
-        "https://www.apple.com/tw/safari/",
-        "（Webkit）"
-      ],
-      [
-        "Opera",
-        "https://www.opera.com/",
-        "（Blink）"
-      ],
-      [
-        "IE",
-        "https://support.microsoft.com/zh-tw/help/17621/internet-explorer-downloads",
-        "刪掉它（Trident）"
-      ],
-      [
-        "Blisk",
-        "https://blisk.io/",
-        "網頁開發導向（Webkit）"
-      ],
-      [
-        "Vivaldi",
-        "https://vivaldi.com/",
-        "易於自訂（Blink）"
-      ],
-      [
-        "Brave",
-        "https://brave.com/",
-        "（Blink）"
-      ]
+      {
+        "name": "Chrome",
+        "url": "https://www.google.com.tw/chrome/",
+        "desc": "（Blink）"
+      },
+      {
+        "name": "Firefox",
+        "url": "https://www.mozilla.org/zh-TW/firefox/new/",
+        "desc": "（Gecko）"
+      },
+      {
+        "name": "Edge",
+        "url": "https://www.microsoft.com/zh-tw/windows/microsoft-edge",
+        "desc": "（EdgeHTML）"
+      },
+      {
+        "name": "Safari",
+        "url": "https://www.apple.com/tw/safari/",
+        "desc": "（Webkit）"
+      },
+      {
+        "name": "Opera",
+        "url": "https://www.opera.com/",
+        "desc": "（Blink）"
+      },
+      {
+        "name": "IE",
+        "url": "https://support.microsoft.com/zh-tw/help/17621/internet-explorer-downloads",
+        "desc": "刪掉它（Trident）"
+      },
+      {
+        "name": "Blisk",
+        "url": "https://blisk.io/",
+        "desc": "網頁開發導向（Webkit）"
+      },
+      {
+        "name": "Vivaldi",
+        "url": "https://vivaldi.com/",
+        "desc": "易於自訂（Blink）"
+      },
+      {
+        "name": "Brave",
+        "url": "https://brave.com/",
+        "desc": "（Blink）"
+      }
     ]
   },
   {
     "type": "browser-text",
     "name": "純文字瀏覽器",
     "data": [
-      [
-        "PhantomJS",
-        "http://phantomjs.org/",
-        "虛擬瀏覽器（Webkit）"
-      ],
-      [
-        "Links",
-        "http://links.twibright.com",
-        ""
-      ],
-      [
-        "Lynx",
-        "https://lynx.invisible-island.net/",
-        ""
-      ],
-      [
-        "w3m",
-        "http://w3m.sourceforge.net/",
-        ""
-      ]
+      {
+        "name": "PhantomJS",
+        "url": "http://phantomjs.org/",
+        "desc": "虛擬瀏覽器（Webkit）"
+      },
+      {
+        "name": "Links",
+        "url": "http://links.twibright.com",
+        "desc": ""
+      },
+      {
+        "name": "Lynx",
+        "url": "https://lynx.invisible-island.net/",
+        "desc": ""
+      },
+      {
+        "name": "w3m",
+        "url": "http://w3m.sourceforge.net/",
+        "desc": ""
+      }
     ]
   },
   {
     "type": "crawler",
     "name": "爬蟲",
     "data": [
-      [
-        "CasperJS",
-        "http://casperjs.org/",
-        "基於PhantomJS"
-      ]
+      {
+        "name": "CasperJS",
+        "url": "http://casperjs.org/",
+        "desc": "基於PhantomJS"
+      }
     ]
   },
   {
     "type": "tool",
     "name": "其它工具",
     "data": [
-      [
-        "Emmet",
-        "http://emmet.io/",
-        "速寫神器"
-      ],
-      [
-        "CSS Validator",
-        "https://jigsaw.w3.org/css-validator/",
-        "CSS語法檢測"
-      ],
-      [
-        "Markup Validator",
-        "https://validator.w3.org/",
-        "HTML語法檢測"
-      ],
-      [
-        "Nightmare",
-        "http://www.nightmarejs.org/",
-        "瀏覽器自動化腳本"
-      ],
-      [
-        "ngrok",
-        "https://ngrok.com/",
-        "發布測試站"
-      ],
-      [
-        "PutsMail",
-        "https://putsmail.com/",
-        "電子報測試"
-      ],
-      [
-        "Lighthouse",
-        "https://github.com/GoogleChrome/lighthouse",
-        "網頁性能測試"
-      ],
-      [
-        "ipify",
-        "https://www.ipify.org/",
-        "IP API"
-      ],
-      [
-        "Markdown Here",
-        "http://markdown-here.com/",
-        "用markdown寫信"
-      ]
+      {
+        "name": "Emmet",
+        "url": "http://emmet.io/",
+        "desc": "速寫神器"
+      },
+      {
+        "name": "CSS Validator",
+        "url": "https://jigsaw.w3.org/css-validator/",
+        "desc": "CSS語法檢測"
+      },
+      {
+        "name": "Markup Validator",
+        "url": "https://validator.w3.org/",
+        "desc": "HTML語法檢測"
+      },
+      {
+        "name": "Nightmare",
+        "url": "http://www.nightmarejs.org/",
+        "desc": "瀏覽器自動化腳本"
+      },
+      {
+        "name": "ngrok",
+        "url": "https://ngrok.com/",
+        "desc": "發布測試站"
+      },
+      {
+        "name": "PutsMail",
+        "url": "https://putsmail.com/",
+        "desc": "電子報測試"
+      },
+      {
+        "name": "Lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse",
+        "desc": "網頁性能測試"
+      },
+      {
+        "name": "ipify",
+        "url": "https://www.ipify.org/",
+        "desc": "IP API"
+      },
+      {
+        "name": "Markdown Here",
+        "url": "http://markdown-here.com/",
+        "desc": "用markdown寫信"
+      }
     ]
   },
   {
     "type": "newsletter",
     "name": "電子報",
     "data": [
-      [
-        "CodeTengu",
-        "http://weekly.codetengu.com/",
-        "碼天狗"
-      ],
-      [
-        "奇舞周刊",
-        "https://weekly.75team.com/",
-        ""
-      ],
-      [
-        "TechBridge",
-        "http://weekly.techbridge.cc/",
-        ""
-      ],
-      [
-        "FrontEnd Focus",
-        "http://frontendfocus.co/",
-        ""
-      ],
-      [
-        "JavaScript Weekly",
-        "http://javascriptweekly.com/",
-        ""
-      ],
-      [
-        "码农周刊",
-        "http://weekly.manong.io/",
-        ""
-      ]
+      {
+        "name": "CodeTengu",
+        "url": "http://weekly.codetengu.com/",
+        "desc": "碼天狗"
+      },
+      {
+        "name": "奇舞周刊",
+        "url": "https://weekly.75team.com/",
+        "desc": ""
+      },
+      {
+        "name": "TechBridge",
+        "url": "http://weekly.techbridge.cc/",
+        "desc": ""
+      },
+      {
+        "name": "FrontEnd Focus",
+        "url": "http://frontendfocus.co/",
+        "desc": ""
+      },
+      {
+        "name": "JavaScript Weekly",
+        "url": "http://javascriptweekly.com/",
+        "desc": ""
+      },
+      {
+        "name": "码农周刊",
+        "url": "http://weekly.manong.io/",
+        "desc": ""
+      }
     ]
   }
 ]

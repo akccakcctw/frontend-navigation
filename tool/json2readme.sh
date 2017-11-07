@@ -21,9 +21,9 @@ for (( i=0; i<$jsonLen; i++ )); do
   dataLen=$(echo $jsonData | jq ".[$i].data | length")
   echo \#\# [$name\($category\)]\(https://akccakcctw.github.io/frontend-navigation/#$category\) >> README.md
   for (( j=0; j<$dataLen; j++ )); do
-    title=$(echo $data | jq ".[$j][0]" -r)
-    url=$(echo $data | jq ".[$j][1]" -r)
-    info=$(echo $data | jq ".[$j][2]" -r)
+    title=$(echo $data | jq ".[$j].name" -r)
+    url=$(echo $data | jq ".[$j].url" -r)
+    info=$(echo $data | jq ".[$j].desc" -r)
     echo - [$title]\($url\) - $info >> README.md
   done
   echo '' >> README.md

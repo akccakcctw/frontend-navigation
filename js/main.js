@@ -48,10 +48,10 @@ function createBody(response) {
   const data = response;
   const newHead = name => `<figure class="thead">${name}</figure>`;
   const newItem = item => `
-    <a href="${item[1]}">
+    <a href="${item.url}">
       <figure>
-        <figcaption>${item[0]}</figcaption>
-          <p class="desc">${item[2]}</p>
+        <figcaption>${item.name}</figcaption>
+          <p class="desc">${item.desc}</p>
         </figure>
     </a>
     `;
