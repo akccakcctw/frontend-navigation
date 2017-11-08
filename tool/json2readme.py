@@ -2,7 +2,6 @@
 import json
 import time
 import sys
-import codecs
 from colorama import init, Fore, Back
 
 init()  # colorama
@@ -19,7 +18,7 @@ def progress(idx, length):
 with open('js/data.json', encoding='utf-8') as rawData:
     DATA = json.load(rawData)
 
-README = codecs.open('README.md', 'w', 'utf-8')
+README = open('./README.md', 'w', newline='\n', encoding='utf-8')
 
 README.write(
     '# [Front-end Navigation](https://akccakcctw.github.io/frontend-navigation/)\n\n')
