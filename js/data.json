@@ -19,6 +19,11 @@
         "desc": ""
       },
       {
+        "name": "jsDelivr",
+        "url": "https://www.jsdelivr.com/",
+        "desc": ""
+      },
+      {
         "name": "MicrosoftCDN",
         "url": "https://www.asp.net/ajax/cdn",
         "desc": ""
@@ -38,6 +43,11 @@
         "name": "Fiddler",
         "url": "https://www.telerik.com/fiddler",
         "desc": "各項通訊偵測"
+      },
+      {
+        "name": "HTTPie",
+        "url": "https://httpie.org/",
+        "desc": "HTTP cli"
       }
     ]
   },
@@ -900,6 +910,11 @@
         "name": "OWASP WebScarab Project",
         "url": "https://www.owasp.org/index.php/Category:OWASP_WebScarab_Project",
         "desc": ""
+      },
+      {
+        "name": "SSL Labs",
+        "url": "https://www.ssllabs.com/ssltest/",
+        "desc": ""
       }
     ]
   },
@@ -1012,6 +1027,11 @@
         "name": "WebMaker",
         "url": "https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh",
         "desc": "離線playground"
+      },
+      {
+        "name": "Visual Inspector",
+        "url": "https://www.canvasflip.com/visual-inspector/",
+        "desc": "畫面調整溝通"
       }
     ]
   },
@@ -1162,6 +1182,11 @@
         "name": "Markdown Here",
         "url": "http://markdown-here.com/",
         "desc": "用markdown寫信"
+      },
+      {
+        "name": "SONAR",
+        "url": "https://sonarwhal.com/",
+        "desc": "微軟開源的檢測工具"
       }
     ]
   },
