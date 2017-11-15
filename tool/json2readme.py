@@ -22,11 +22,11 @@ README = open('./README.md', 'w', newline='\n', encoding='utf-8')
 
 README.write(
     '# [Front-end Navigation](https://akccakcctw.github.io/frontend-navigation/)\n\n')
-for i, t in enumerate(DATA):  # t: type
-    progress(i, len(DATA))
+for t in range(len(DATA)):  # t: type
+    progress(t, len(DATA))
     README.write('## [{0}({1})]({2}{1})\n'.format(
-        t['name'], t['type'], 'https://akccakcctw.github.io/frontend-navigation/#'))
-    for l in t['data']:  # l: list
+        DATA[t]['name'], DATA[t]['type'], 'https://akccakcctw.github.io/frontend-navigation/#'))
+    for l in DATA[t]['data']:  # l: list
         README.write(
             '- [{0}]({1}) - {2}\n'.format(l['name'], l['url'], l['desc']))
     README.write('\n')
