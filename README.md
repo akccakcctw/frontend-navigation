@@ -94,6 +94,10 @@
 - [Skeleton](http://getskeleton.com/) - 
 - [Myth](http://www.myth.io/) - 
 
+## [Mocking(mocking)](https://akccakcctw.github.io/frontend-navigation/#mocking)
+- [Faker.js](https://github.com/marak/Faker.js/) - 假資料
+- [Sinon.js](http://sinonjs.org/) - 
+
 ## [編輯器(editor)](https://akccakcctw.github.io/frontend-navigation/#editor)
 - [VIM](http://www.vim.org/) - 編輯器之神
 - [VSCode](https://code.visualstudio.com/) - 

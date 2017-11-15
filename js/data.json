@@ -418,6 +418,22 @@
     ]
   },
   {
+    "type": "mocking",
+    "name": "Mocking",
+    "data": [
+      {
+        "name": "Faker.js",
+        "url": "https://github.com/marak/Faker.js/",
+        "desc": "假資料"
+      },
+      {
+        "name": "Sinon.js",
+        "url": "http://sinonjs.org/",
+        "desc": ""
+      }
+    ]
+  },
+  {
     "type": "editor",
     "name": "編輯器",
     "data": [
