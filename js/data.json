@@ -805,6 +805,22 @@
     ]
   },
   {
+    "type": "error-tracking",
+    "name": "錯誤追蹤",
+    "data": [
+      {
+        "name": "Sentry",
+        "url": "https://sentry.io/",
+        "desc": ""
+      },
+      {
+        "name": "Rollbar",
+        "url": "https://rollbar.com/",
+        "desc": ""
+      }
+    ]
+  },
+  {
     "type": "enviroment",
     "name": "環境",
     "data": [
