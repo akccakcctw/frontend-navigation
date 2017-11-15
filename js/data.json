@@ -737,6 +737,22 @@
     ]
   },
   {
+    "type": "e2e",
+    "name": "E2E測試",
+    "data": [
+      {
+        "name": "cypress",
+        "url": "https://www.cypress.io/",
+        "desc": ""
+      },
+      {
+        "name": "Nightwatch.js",
+        "url": "http://nightwatchjs.org/",
+        "desc": "自動化測試"
+      }
+    ]
+  },
+  {
     "type": "ci-cd",
     "name": "CI/CD",
     "data": [
