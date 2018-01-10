@@ -166,12 +166,12 @@
 - [Chai](http://chaijs.com/) - 
 - [Jasmine](https://jasmine.github.io/) - 
 - [Karma](https://karma-runner.github.io/) - 
-- [Protractor](http://www.protractortest.org/) - 
 - [Buster.js](http://docs.busterjs.org/) - 
 
 ## [E2E測試(e2e)](https://akccakcctw.github.io/frontend-navigation/#e2e)
 - [cypress](https://www.cypress.io/) - 
 - [Nightwatch.js](http://nightwatchjs.org/) - 自動化測試
+- [Protractor](http://www.protractortest.org/) - 
 
 ## [CI/CD(ci-cd)](https://akccakcctw.github.io/frontend-navigation/#ci-cd)
 - [Travis CI](https://travis-ci.org/) - 

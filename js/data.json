@@ -741,11 +741,6 @@
         "desc": ""
       },
       {
-        "name": "Protractor",
-        "url": "http://www.protractortest.org/",
-        "desc": ""
-      },
-      {
         "name": "Buster.js",
         "url": "http://docs.busterjs.org/",
         "desc": ""
@@ -765,6 +760,11 @@
         "name": "Nightwatch.js",
         "url": "http://nightwatchjs.org/",
         "desc": "自動化測試"
+      },
+      {
+        "name": "Protractor",
+        "url": "http://www.protractortest.org/",
+        "desc": ""
       }
     ]
   },

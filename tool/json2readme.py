@@ -1,4 +1,4 @@
-""" convert raw data(js/data.json) to README.md """
+""" generate README.md from raw data(js/data.json) """
 import json
 import time
 import sys
