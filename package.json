@@ -11,8 +11,8 @@
     "build:readme:bash": "sh tool/json2readme.sh"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.2.0",
     "node-sass": "^4.5.3"
   }
