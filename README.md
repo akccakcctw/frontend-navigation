@@ -166,12 +166,20 @@
 - [Chai](http://chaijs.com/) - 
 - [Jasmine](https://jasmine.github.io/) - 
 - [Karma](https://karma-runner.github.io/) - 
+- [Tape](https://github.com/substack/tape) - 
+- [Jest](https://facebook.github.io/jest/) - 
 - [Buster.js](http://docs.busterjs.org/) - 
 
 ## [E2E測試(e2e)](https://akccakcctw.github.io/frontend-navigation/#e2e)
 - [cypress](https://www.cypress.io/) - 
 - [Nightwatch.js](http://nightwatchjs.org/) - 自動化測試
-- [Protractor](http://www.protractortest.org/) - 
+- [WebDriver.io](http://webdriver.io) - 
+- [TestCafe](https://devexpress.github.io/testcafe/) - 
+- [Intern](https://theintern.io/) - 
+- [CodeceptJS](http://codecept.io/) - 
+- [Appium](https://appium.io/) - 行動裝置專用
+- [Selenium](http://www.seleniumhq.org/) - 
+- [Protractor](http://www.protractortest.org/) - For Angular
 
 ## [CI/CD(ci-cd)](https://akccakcctw.github.io/frontend-navigation/#ci-cd)
 - [Travis CI](https://travis-ci.org/) - 
@@ -266,6 +274,9 @@
 
 ## [爬蟲(crawler)](https://akccakcctw.github.io/frontend-navigation/#crawler)
 - [CasperJS](http://casperjs.org/) - 基於PhantomJS
+
+## [無障礙(a11y)](https://akccakcctw.github.io/frontend-navigation/#a11y)
+- [accessibilityjs](https://github.com/github/accessibilityjs) - 無障礙測試
 
 ## [其它工具(tool)](https://akccakcctw.github.io/frontend-navigation/#tool)
 - [Emmet](http://emmet.io/) - 速寫神器

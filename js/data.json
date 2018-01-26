@@ -741,6 +741,16 @@
         "desc": ""
       },
       {
+        "name": "Tape",
+        "url": "https://github.com/substack/tape",
+        "desc": ""
+      },
+      {
+        "name": "Jest",
+        "url": "https://facebook.github.io/jest/",
+        "desc": ""
+      },
+      {
         "name": "Buster.js",
         "url": "http://docs.busterjs.org/",
         "desc": ""
@@ -762,9 +772,39 @@
         "desc": "自動化測試"
       },
       {
+        "name": "WebDriver.io",
+        "url": "http://webdriver.io",
+        "desc": ""
+      },
+      {
+        "name": "TestCafe",
+        "url": "https://devexpress.github.io/testcafe/",
+        "desc": ""
+      },
+      {
+        "name": "Intern",
+        "url": "https://theintern.io/",
+        "desc": ""
+      },
+      {
+        "name": "CodeceptJS",
+        "url": "http://codecept.io/",
+        "desc": ""
+      },
+      {
+        "name": "Appium",
+        "url": "https://appium.io/",
+        "desc": "行動裝置專用"
+      },
+      {
+        "name": "Selenium",
+        "url": "http://www.seleniumhq.org/",
+        "desc": ""
+      },
+      {
         "name": "Protractor",
         "url": "http://www.protractortest.org/",
-        "desc": ""
+        "desc": "For Angular"
       }
     ]
   },
@@ -1179,6 +1219,17 @@
         "name": "CasperJS",
         "url": "http://casperjs.org/",
         "desc": "基於PhantomJS"
+      }
+    ]
+  },
+  {
+    "type": "a11y",
+    "name": "無障礙",
+    "data": [
+      {
+        "name": "accessibilityjs",
+        "url": "https://github.com/github/accessibilityjs",
+        "desc": "無障礙測試"
       }
     ]
   },
