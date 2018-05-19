@@ -145,6 +145,7 @@
 ## [模組化管理(module-bundler)](https://akccakcctw.github.io/frontend-navigation/#module-bundler)
 - [Webpack](https://webpack.github.io/) - 
 - [rollup](http://rollupjs.org/) - 
+- [Parcel](https://parceljs.org) - 開箱即用
 - [CommonJS](http://www.commonjs.org/) - 
 - [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD) - 
 
@@ -289,6 +290,8 @@
 - [ipify](https://www.ipify.org/) - IP API
 - [Markdown Here](http://markdown-here.com/) - 用markdown寫信
 - [SONAR](https://sonarwhal.com/) - 微軟開源的檢測工具
+- [Is it maintained?](https://isitmaintained.com) - 開源專案維護分析
+- [BuiltWith](https://builtwith.com) - 網站分析
 
 ## [電子報(newsletter)](https://akccakcctw.github.io/frontend-navigation/#newsletter)
 - [CodeTengu](http://weekly.codetengu.com/) - 碼天狗
