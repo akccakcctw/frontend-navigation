@@ -648,6 +648,11 @@
         "desc": ""
       },
       {
+        "name": "Parcel",
+        "url": "https://parceljs.org",
+        "desc": "開箱即用"
+      },
+      {
         "name": "CommonJS",
         "url": "http://www.commonjs.org/",
         "desc": ""
@@ -1286,6 +1291,16 @@
         "name": "SONAR",
         "url": "https://sonarwhal.com/",
         "desc": "微軟開源的檢測工具"
+      },
+      {
+        "name": "Is it maintained?",
+        "url": "https://isitmaintained.com",
+        "desc": "開源專案維護分析"
+      },
+      {
+        "name": "BuiltWith",
+        "url": "https://builtwith.com",
+        "desc": "網站分析"
       }
     ]
   },
