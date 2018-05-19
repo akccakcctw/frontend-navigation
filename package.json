@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build:sass": "node-sass --output-style compressed -o css/ sass/",
-    "build:readme": "python tool/json2readme.py",
+    "build:readme": "./tool/json2readme.py",
     "build:readme:bash": "sh tool/json2readme.sh"
   },
   "devDependencies": {

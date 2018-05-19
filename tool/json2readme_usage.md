@@ -5,13 +5,15 @@
 - Python3
 - Python module: colorama
   - `pip install colorama`
+- Make sure tool/json2readme.py is executable
+  - `chmod u+x tool/json2readme.py`
 
 #### Usage (command-line)
 
 Just run `npm run build:readme`, or do it manually:
 
 1. `cd` to frontend-navigation/
-2. `python tool/json2readme.py`
+2. `./tool/json2readme.py`
 
 ---
 

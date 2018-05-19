@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """ generate README.md from raw data(js/data.json) """
 import json
 import time
