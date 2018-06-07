@@ -208,6 +208,11 @@
         "name": "TinyPNG",
         "url": "https://tinypng.com/",
         "desc": "線上最佳化"
+      },
+      {
+        "name": "SVGO",
+        "url" : "https://github.com/svg/svgo",
+        "desc": "svg 優化"
       }
     ]
   },

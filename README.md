@@ -47,6 +47,7 @@
 - [libjpeg](http://libjpeg.sourceforge.net/) - jpeg最佳化（命令列程式）
 - [PNGGauntlet](https://pnggauntlet.com/) - PNG最佳化
 - [TinyPNG](https://tinypng.com/) - 線上最佳化
+- [SVGO](https://github.com/svg/svgo) - svg 優化
 
 ## [字型(fonts)](https://akccakcctw.github.io/frontend-navigation/#fonts)
 - [Google Fonts](https://fonts.google.com/) - 免費網路字型
