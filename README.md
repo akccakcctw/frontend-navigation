@@ -160,7 +160,6 @@
 - [ESLint](http://eslint.org/) - 
 - [JSHint](http://jshint.com/) - 
 - [JSLint](http://www.jslint.com/) - 
-- [JSCS](http://jscs.info/) - JS撰寫風格標準
 
 ## [單元測試(unit-test)](https://akccakcctw.github.io/frontend-navigation/#unit-test)
 - [AVA](https://github.com/avajs/ava) - 

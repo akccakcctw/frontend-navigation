@@ -713,11 +713,6 @@
         "name": "JSLint",
         "url": "http://www.jslint.com/",
         "desc": ""
-      },
-      {
-        "name": "JSCS",
-        "url": "http://jscs.info/",
-        "desc": "JS撰寫風格標準"
       }
     ]
   },
