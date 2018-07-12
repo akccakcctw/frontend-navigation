@@ -65,6 +65,7 @@
 - [Entypo](http://www.entypo.com/) - 
 - [CSS ICON](http://cssicon.space/) - 純CSS
 - [Icon Font](https://leungwensen.github.io/svg-icon/) - svg-icon
+- [Simple Line Icons](http://simplelineicons.com/) - 美美的線性 icon
 
 ## [JS框架(js-framework)](https://akccakcctw.github.io/frontend-navigation/#js-framework)
 - [React](https://facebook.github.io/react/) - 

@@ -290,6 +290,11 @@
         "name": "Icon Font",
         "url": "https://leungwensen.github.io/svg-icon/",
         "desc": "svg-icon"
+      },
+      {
+        "name": "Simple Line Icons",
+        "url": "http://simplelineicons.com/",
+        "desc": "美美的線性 icon"
       }
     ]
   },
