@@ -17,6 +17,7 @@
 - [Framer](https://framerjs.com/) - 製作動態原型
 - [Origami](https://facebook.github.io/origami/) - 由Facebook開發
 - [Form](http://www.relativewave.com/form/) - Google已併購
+- [ProtoPie](https://www.protopie.io/) - 
 
 ## [API(api)](https://akccakcctw.github.io/frontend-navigation/#api)
 - [overAPI](http://overapi.com/) - 各種API
@@ -71,15 +72,17 @@
 - [React](https://facebook.github.io/react/) - 
 - [Vue.js](https://vuejs.org/) - 
 - [Angular](https://angularjs.org/) - 
+- [Marko](https://markojs.com/) - 
 - [Backbone.js](http://backbonejs.org/) - 
 - [Knockout.js](http://knockoutjs.com/) - 
 - [Ember.js](http://emberjs.com/) - 
 
 ## [函式庫(library)](https://akccakcctw.github.io/frontend-navigation/#library)
 - [Ramda](http://ramdajs.com/) - Functional Programming
+- [Lodash](https://lodash.com) - 
+- [Underscore](http://underscorejs.org) - 
 - [jQuery](https://jquery.com/) - 
 - [jQuery UI](https://jqueryui.com/) - 
-- [Underscore](http://underscorejs.org) - 
 - [YUI](http://yuilibrary.com/) - 
 
 ## [CSS框架(css-framework)](https://akccakcctw.github.io/frontend-navigation/#css-framework)
@@ -114,6 +117,7 @@
 - [Coda](https://panic.com/coda/) - 
 - [Kate](https://kate-editor.org/) - 
 - [Micro](https://micro-editor.github.io/) - 終端機新選擇
+- [Xi](https://google.github.io/xi-editor) - Google 開發
 
 ## [IDE(ide)](https://akccakcctw.github.io/frontend-navigation/#ide)
 - [Visual Studio](https://www.visualstudio.com/) - 
@@ -239,6 +243,7 @@
 - [Titanium](https://www.appcelerator.com/mobile-app-development-products/) - 
 - [PhoneGap](http://phonegap.com/) - 
 - [Cordova](https://cordova.apache.org/) - 
+- [Proton Native](https://proton-native.js.org/) - React Native 桌面應用框架
 
 ## [瀏覽器附加工具(addons)](https://akccakcctw.github.io/frontend-navigation/#addons)
 - [ColorZilla](http://www.colorzilla.com/) - 網頁拾色

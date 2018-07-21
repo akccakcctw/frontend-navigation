@@ -74,6 +74,11 @@
         "name": "Form",
         "url": "http://www.relativewave.com/form/",
         "desc": "Google已併購"
+      },
+      {
+        "name": "ProtoPie",
+        "url": "https://www.protopie.io/",
+        "desc": ""
       }
     ]
   },
@@ -318,6 +323,11 @@
         "desc": ""
       },
       {
+        "name": "Marko",
+        "url": "https://markojs.com/",
+        "desc": ""
+      },
+      {
         "name": "Backbone.js",
         "url": "http://backbonejs.org/",
         "desc": ""
@@ -344,6 +354,16 @@
         "desc": "Functional Programming"
       },
       {
+        "name": "Lodash",
+        "url": "https://lodash.com",
+        "desc": ""
+      },
+      {
+        "name": "Underscore",
+        "url": "http://underscorejs.org",
+        "desc": ""
+      },
+      {
         "name": "jQuery",
         "url": "https://jquery.com/",
         "desc": ""
@@ -351,11 +371,6 @@
       {
         "name": "jQuery UI",
         "url": "https://jqueryui.com/",
-        "desc": ""
-      },
-      {
-        "name": "Underscore",
-        "url": "http://underscorejs.org",
         "desc": ""
       },
       {
@@ -511,6 +526,11 @@
         "name": "Micro",
         "url": "https://micro-editor.github.io/",
         "desc": "終端機新選擇"
+      },
+      {
+        "name": "Xi",
+        "url": "https://google.github.io/xi-editor",
+        "desc": "Google 開發"
       }
     ]
   },
@@ -1064,6 +1084,11 @@
         "name": "Cordova",
         "url": "https://cordova.apache.org/",
         "desc": ""
+      },
+      {
+        "name": "Proton Native",
+        "url": "https://proton-native.js.org/",
+        "desc": "React Native 桌面應用框架"
       }
     ]
   },
