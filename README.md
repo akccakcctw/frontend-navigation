@@ -67,6 +67,7 @@
 - [CSS ICON](http://cssicon.space/) - 純CSS
 - [Icon Font](https://leungwensen.github.io/svg-icon/) - svg-icon
 - [Simple Line Icons](http://simplelineicons.com/) - 美美的線性 icon
+- [Vivid.js](https://webkul.github.io/vivid/) - 
 
 ## [JS框架(js-framework)](https://akccakcctw.github.io/frontend-navigation/#js-framework)
 - [React](https://facebook.github.io/react/) - 
@@ -100,6 +101,7 @@
 - [Myth](http://www.myth.io/) - 
 
 ## [Mocking(mocking)](https://akccakcctw.github.io/frontend-navigation/#mocking)
+- [JSON Server](https://github.com/typicode/json-server) - fake REST API
 - [Faker.js](https://github.com/marak/Faker.js/) - 假資料
 - [Sinon.js](http://sinonjs.org/) - 
 
@@ -202,9 +204,10 @@
 ## [環境(enviroment)](https://akccakcctw.github.io/frontend-navigation/#enviroment)
 - [Node.js](https://nodejs.org/) - 
 
-## [兼容性(campatibility)](https://akccakcctw.github.io/frontend-navigation/#campatibility)
+## [兼容性(compatibility)](https://akccakcctw.github.io/frontend-navigation/#compatibility)
 - [Can I use?](http://caniuse.com/) - 查詢瀏覽器支援度
 - [Modernizr](https://modernizr.com/) - 
+- [Polyfill.io](https://polyfill.io) - 
 - [Browserhacks](http://browserhacks.com/) - 瀏覽器hack速查
 
 ## [兼容性測試(c-testing)](https://akccakcctw.github.io/frontend-navigation/#c-testing)
@@ -215,6 +218,7 @@
 
 ## [Debugging(debugging)](https://akccakcctw.github.io/frontend-navigation/#debugging)
 - [jsconsole](https://jsconsole.com/) - 
+- [whistle](https://github.com/avwo/whistle) - HTTP(S), WebSocket debugging proxy
 
 ## [效能(performance)](https://akccakcctw.github.io/frontend-navigation/#performance)
 - [PageSpeed](https://developers.google.com/speed/pagespeed/) - 
@@ -272,8 +276,10 @@
 - [Blisk](https://blisk.io/) - 網頁開發導向（Webkit）
 - [Vivaldi](https://vivaldi.com/) - 易於自訂（Blink）
 - [Brave](https://brave.com/) - （Blink）
+- [Next](https://next.atlas.engineer/) - 
 
 ## [純文字瀏覽器(browser-text)](https://akccakcctw.github.io/frontend-navigation/#browser-text)
+- [Browsh](https://www.brow.sh/) - 
 - [PhantomJS](http://phantomjs.org/) - 虛擬瀏覽器（Webkit）
 - [Links](http://links.twibright.com) - 
 - [Lynx](https://lynx.invisible-island.net/) - 
@@ -298,6 +304,7 @@
 - [SONAR](https://sonarwhal.com/) - 微軟開源的檢測工具
 - [Is it maintained?](https://isitmaintained.com) - 開源專案維護分析
 - [BuiltWith](https://builtwith.com) - 網站分析
+- [JavaScript Visualizer](https://tylermcginnis.com/javascript-visualizer/) - 
 
 ## [電子報(newsletter)](https://akccakcctw.github.io/frontend-navigation/#newsletter)
 - [CodeTengu](http://weekly.codetengu.com/) - 碼天狗

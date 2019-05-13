@@ -300,6 +300,11 @@
         "name": "Simple Line Icons",
         "url": "http://simplelineicons.com/",
         "desc": "美美的線性 icon"
+      },
+      {
+        "name": "Vivid.js",
+        "url": "https://webkul.github.io/vivid/",
+        "desc": ""
       }
     ]
   },
@@ -446,6 +451,11 @@
     "type": "mocking",
     "name": "Mocking",
     "data": [
+      {
+        "name": "JSON Server",
+        "url": "https://github.com/typicode/json-server",
+        "desc": "fake REST API"
+      },
       {
         "name": "Faker.js",
         "url": "https://github.com/marak/Faker.js/",
@@ -902,7 +912,7 @@
     ]
   },
   {
-    "type": "campatibility",
+    "type": "compatibility",
     "name": "兼容性",
     "data": [
       {
@@ -913,6 +923,11 @@
       {
         "name": "Modernizr",
         "url": "https://modernizr.com/",
+        "desc": ""
+      },
+      {
+        "name": "Polyfill.io",
+        "url": "https://polyfill.io",
         "desc": ""
       },
       {
@@ -956,6 +971,11 @@
         "name": "jsconsole",
         "url": "https://jsconsole.com/",
         "desc": ""
+      },
+      {
+        "name": "whistle",
+        "url": "https://github.com/avwo/whistle",
+        "desc": "HTTP(S), WebSocket debugging proxy"
       }
     ]
   },
@@ -1217,13 +1237,24 @@
         "name": "Brave",
         "url": "https://brave.com/",
         "desc": "（Blink）"
+      },
+      {
+        "name": "Next",
+        "url": "https://next.atlas.engineer/",
+        "desc": ""
       }
+
     ]
   },
   {
     "type": "browser-text",
     "name": "純文字瀏覽器",
     "data": [
+      {
+        "name": "Browsh",
+        "url": "https://www.brow.sh/",
+        "desc": ""
+      },
       {
         "name": "PhantomJS",
         "url": "http://phantomjs.org/",
@@ -1331,6 +1362,11 @@
         "name": "BuiltWith",
         "url": "https://builtwith.com",
         "desc": "網站分析"
+      },
+      {
+        "name": "JavaScript Visualizer",
+        "url": "https://tylermcginnis.com/javascript-visualizer/",
+        "desc": ""
       }
     ]
   },
