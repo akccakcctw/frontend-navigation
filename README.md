@@ -154,6 +154,8 @@
 - [Webpack](https://webpack.github.io/) - 
 - [rollup](http://rollupjs.org/) - 
 - [Parcel](https://parceljs.org) - 開箱即用
+- [FuseBox](https://fuse-box.org/) - 
+- [@pika/pack](https://github.com/pikapkg/pack) - npm package building
 - [CommonJS](http://www.commonjs.org/) - 
 - [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD) - 
 
@@ -200,6 +202,7 @@
 ## [錯誤追蹤(error-tracking)](https://akccakcctw.github.io/frontend-navigation/#error-tracking)
 - [Sentry](https://sentry.io/) - 
 - [Rollbar](https://rollbar.com/) - 
+- [LogRocket](https://logrocket.com/) - 
 
 ## [環境(enviroment)](https://akccakcctw.github.io/frontend-navigation/#enviroment)
 - [Node.js](https://nodejs.org/) - 
@@ -293,6 +296,7 @@
 
 ## [其它工具(tool)](https://akccakcctw.github.io/frontend-navigation/#tool)
 - [Emmet](http://emmet.io/) - 速寫神器
+- [npm trends](https://www.npmtrends.com/) - 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - CSS語法檢測
 - [Markup Validator](https://validator.w3.org/) - HTML語法檢測
 - [Nightmare](http://www.nightmarejs.org/) - 瀏覽器自動化腳本

@@ -693,6 +693,16 @@
         "desc": "開箱即用"
       },
       {
+        "name": "FuseBox",
+        "url": "https://fuse-box.org/",
+        "desc": ""
+      },
+      {
+        "name": "@pika/pack",
+        "url": "https://github.com/pikapkg/pack",
+        "desc": "npm package building"
+      },
+      {
         "name": "CommonJS",
         "url": "http://www.commonjs.org/",
         "desc": ""
@@ -896,6 +906,11 @@
       {
         "name": "Rollbar",
         "url": "https://rollbar.com/",
+        "desc": ""
+      },
+      {
+        "name": "LogRocket",
+        "url": "https://logrocket.com/",
         "desc": ""
       }
     ]
@@ -1307,6 +1322,11 @@
         "name": "Emmet",
         "url": "http://emmet.io/",
         "desc": "速寫神器"
+      },
+      {
+        "name": "npm trends",
+        "url": "https://www.npmtrends.com/",
+        "desc": ""
       },
       {
         "name": "CSS Validator",
