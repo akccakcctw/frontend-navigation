@@ -1,8 +1,8 @@
 ---
-name: Feature request
+name: Request to Add
 about: Suggest an idea for this project
 title: "[ADD]"
-labels: ''
+labels: Request to Add
 assignees: ''
 
 ---
@@ -11,9 +11,9 @@ assignees: ''
 Category of the tool. You can choose one from [https://github.com/akccakcctw/frontend-navigation/blob/master/README.md](here), or suggest a new.
 
 **Official homepage:**
-Website or GitHub link of the tool. 
+Website or GitHub link of the tool.
 
-**Comment**
+**Comment:**
 Short description of the tool.
 
 **Additional context**
