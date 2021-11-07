@@ -4,9 +4,19 @@
     "name": "CDN",
     "data": [
       {
+        "name": "unpkg",
+        "url": "https://unpkg.com/",
+        "desc": ""
+      },
+      {
         "name": "cdnjs",
         "url": "https://cdnjs.com/",
         "desc": "應有盡有"
+      },
+      {
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com/zh-tw/",
+        "desc": ""
       },
       {
         "name": "GoogleCDN",
@@ -14,8 +24,8 @@
         "desc": ""
       },
       {
-        "name": "RawGit",
-        "url": "https://rawgit.com/",
+        "name": "raw.githack.com",
+        "url": "https://raw.githack.com/",
         "desc": ""
       },
       {
@@ -323,6 +333,11 @@
         "desc": ""
       },
       {
+        "name": "Svelte",
+        "url": "https://svelte.dev/",
+        "desc": ""
+      },
+      {
         "name": "Angular",
         "url": "https://angularjs.org/",
         "desc": ""
@@ -331,6 +346,11 @@
         "name": "Marko",
         "url": "https://markojs.com/",
         "desc": ""
+      },
+      {
+        "name": "Preact",
+        "url": "https://preactjs.com/",
+        "desc": "3kB alternative to React"
       },
       {
         "name": "Backbone.js",
@@ -814,6 +834,11 @@
       {
         "name": "cypress",
         "url": "https://www.cypress.io/",
+        "desc": ""
+      },
+      {
+        "name": "Puppeteer",
+        "url": "https://pptr.dev/",
         "desc": ""
       },
       {

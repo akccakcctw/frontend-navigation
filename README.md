@@ -1,9 +1,11 @@
 # [Front-end Navigation](https://akccakcctw.github.io/frontend-navigation/)
 
 ## [CDN(cdn)](https://akccakcctw.github.io/frontend-navigation/#cdn)
+- [unpkg](https://unpkg.com/) - 
 - [cdnjs](https://cdnjs.com/) - 應有盡有
+- [Cloudflare](https://www.cloudflare.com/zh-tw/) - 
 - [GoogleCDN](https://developers.google.com/speed/libraries/) - 
-- [RawGit](https://rawgit.com/) - 
+- [raw.githack.com](https://raw.githack.com/) - 
 - [jsDelivr](https://www.jsdelivr.com/) - 
 - [MicrosoftCDN](https://www.asp.net/ajax/cdn) - 
 
@@ -72,8 +74,10 @@
 ## [JS框架(js-framework)](https://akccakcctw.github.io/frontend-navigation/#js-framework)
 - [React](https://facebook.github.io/react/) - 
 - [Vue.js](https://vuejs.org/) - 
+- [Svelte](https://svelte.dev/) - 
 - [Angular](https://angularjs.org/) - 
 - [Marko](https://markojs.com/) - 
+- [Preact](https://preactjs.com/) - 3kB alternative to React
 - [Backbone.js](http://backbonejs.org/) - 
 - [Knockout.js](http://knockoutjs.com/) - 
 - [Ember.js](http://emberjs.com/) - 
@@ -182,6 +186,7 @@
 
 ## [E2E測試(e2e)](https://akccakcctw.github.io/frontend-navigation/#e2e)
 - [cypress](https://www.cypress.io/) - 
+- [Puppeteer](https://pptr.dev/) - 
 - [Nightwatch.js](http://nightwatchjs.org/) - 自動化測試
 - [WebDriver.io](http://webdriver.io) - 
 - [TestCafe](https://devexpress.github.io/testcafe/) - 
