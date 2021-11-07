@@ -1,7 +1,5 @@
 // normalize
-@import "vendor/normalize-scss/_variables.scss";
-@import "vendor/normalize-scss/_vertical-rhythm.scss";
-@import "vendor/normalize-scss/_normalize";
+@import 'node_modules/modern-normalize/modern-normalize.css';
 
 // main
 @import "mixin";

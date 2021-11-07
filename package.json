@@ -6,7 +6,7 @@
   "author": "Rex Tsou <akccakccwww@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:sass": "node-sass --output-style compressed -o css/ sass/",
+    "build:sass": "npx sass sass/main.scss css/main.css --style=compressed --no-source-map",
     "build:readme": "./tool/json2readme.py",
     "build:readme:bash": "sh tool/json2readme.sh"
   },
@@ -14,6 +14,7 @@
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
-    "node-sass": "^4.14.1"
-  }
+    "modern-normalize": "^1.1.0"
+  },
+  "dependencies": {}
 }
